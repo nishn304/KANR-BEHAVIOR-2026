@@ -1,0 +1,16 @@
+{
+  "file": "/Users/nishanmani/Documents/Codex/2026-10-04/https-docs-google-com-document-d/outputs/submission-finish-20261016/release-ready/DRAFT-REVIEW6-standard.public.KANR.Independent.20261017.zip",
+  "bytes": 519781,
+  "sha256": "690a13fee1b2ef4aba0f927b1f0307a48e2e303a51df6a26863dac6047f29cc4",
+  "only_changed_member": "standard.public.KANR.Independent.20261016/README.md",
+  "all_metric_wrapper_robot_bytes_unchanged": true,
+  "members": [
+    "Keshav Balakrishna",
+    "Abhijay Gangarapu",
+    "Nishan Mani",
+    "Rithik Satarla"
+  ],
+  "Q": 0.15605353674103672,
+  "submitted": false,
+  "surname_user_confirmed": true
+}

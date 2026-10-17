@@ -2,7 +2,7 @@
 
 DRAFT FOR JOINT REVIEW. Not submitted, not fully qualified, and not ready for public release until access and licence scope are reviewed.
 
-Team: Keshav Balakrishna, Abhijay Gangerapu, Nishan Mani, Rithik Satarla. Affiliation: Independent. Contact: nishanmanisd@gmail.com.
+Team: Keshav Balakrishna, Abhijay Gangarapu, Nishan Mani, Rithik Satarla. Affiliation: Independent. Contact: nishanmanisd@gmail.com.
 
 ## Method
 We use a frozen task-to-policy mapping across ten public checkpoint configurations. Policy choices use development instances 311–320; scored instances 301–310 are not used to select policies. Each task uses one selected policy. Model inference uses RGB/depth/proprioception through the corresponding native serving adapter, without privileged simulator state. The final package preserves native precision, normalization, checkpoint parameters and model planning horizons.
