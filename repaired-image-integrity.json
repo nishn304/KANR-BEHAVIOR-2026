@@ -1,0 +1,75 @@
+{
+  "status": "VERIFIED_BASE_REUSED_CACHE_FIX_OVERLAYS_GPU_SCREENED_NOT_FULL_QUALIFICATION",
+  "base_digest": "sha256:14281fc01df785f1d175fdeaba2591c28ec1178d08c5adfefb5c8672f47f8979",
+  "original_base_parity_status": "STRICT_PARITY_FAILED_ONE_MISSING_GENERATED_PYC",
+  "repair_method": "combined app overlay adds exact missing PYC; independent extracted native scan agrees with full TACC blob/diff-id verification delta; code equals compilation of frozen source",
+  "repair": {
+    "path": "scratch/11940/balak35/b1k/comet/openpi-comet/.venv/lib/python3.11/site-packages/transformers/models/dinov2/__pycache__/modeling_dinov2.cpython-311.pyc",
+    "sha256": "a9a5b40ba7c14a66858891dfa27f8361d8c555aa3e4fc6e189a45abfbbfd330d",
+    "bytes": 45455,
+    "mode": 420
+  },
+  "native_model_sources_or_weights_modified": false,
+  "source_inventory_sha256": "19842153ce28fed67da1b4d1fc1682c8d050db396fdd4b5c55420cea00c663af",
+  "tacc_mismatch_report_sha256": "2a5472a621b251fbe5693765dbad474de63b6cf1c3bdf5f7b27f2f5cc646072b",
+  "tacc_log_sha256": "7dc9f4d7cdf875fa7a59a368d5bf3721034def51f055bc3bfa3251c1a499a621",
+  "independent_extracted_check_sha256": "b9b6c56afd3868de1faaaba2e746b17dedd6a5d8f7efab17ec88da21a7805a85",
+  "pyc_source_parity_sha256": "97c2a518b0dca520e096b23700a9d03faae40d163537d52c8549d829266f63ab",
+  "gpu_screen_sha256": "70c6ae787737c59dbc979893a16347d78a8fae9d85b31769b106a6e6fedcf3a5",
+  "kernel_screen_sha256": "a0eacc4ffd82040fedf9b80b016575e9f22a5b8d01ea78c2db4958982d817f6f",
+  "context_lock_sha256": "8d5d6c1fed902594129b86ad28bbb0f66ae3360d076dc7fffce4fe10511a922d",
+  "images": {
+    "comet@ymetz9999": {
+      "digest": "sha256:e1892e6a09e90e73ea25fafe94e101c0ec792e8baebfafa0d5fb59bcc8275d43",
+      "config_digest": "sha256:0daa1c2c4704f496256333e020908b9d60cd6bf25fe3eae20f1913677207cc18",
+      "overlay_digest": "sha256:0afb095d561fa7aeb8492eb6981ed1ca0a60021060083d7cbde647791745acac"
+    },
+    "pt12": {
+      "digest": "sha256:a76256c005327fdf06a184365b8338e088cc9e130923401f2226c8a1e3a0b46c",
+      "config_digest": "sha256:64c9d411f8b6f2e121ccb32bbd2e706582beef5200e7ec311491f5a7384934c1",
+      "overlay_digest": "sha256:1c0e925b749fb69b79d0d286101f442990e0b818884ec9437a53aae60b87d334"
+    },
+    "pt50": {
+      "digest": "sha256:b593eed0493db41d96935f0d903eabcb2a61f0a43f71769700837ff1441c54ff",
+      "config_digest": "sha256:2ce038833533001a7959cf611f00b67eca962d6efb72b6104ba86c1d4a95b698",
+      "overlay_digest": "sha256:aeeda3345ba93bcb3d68dc5e2f6b7ec713f027557fdf6d432c6933795e857705"
+    },
+    "s150997": {
+      "digest": "sha256:f7b4fffc18acf4154fd62446a6d823763679c9766adaed81db100a5b48354a80",
+      "config_digest": "sha256:99f44a7397420bea7d0c6f0a3111f30bd8e63b29967962d06224a1174ac97679",
+      "overlay_digest": "sha256:755ea495f550ed8e11efde575c2ceacf33b1d9ca1ffee2e466a2d193d5df6a72"
+    },
+    "w100@b_amy_t90": {
+      "digest": "sha256:ff50f6f73dc6f99e13fe91b84dffc35feff15d17dca9c6818ca4339c4ebb673f",
+      "config_digest": "sha256:9abf88ce720c0863f9f7a9ad49710c025ed0dd9810ae518ec05720f955562ca4",
+      "overlay_digest": "sha256:a85baa1829d6143f0c13812e5e13b30d0f8392cb6a87115f6df8e7e5abd73164"
+    },
+    "w100@j_jl_4task100": {
+      "digest": "sha256:d5d27dd7ba4da7cac1abd0c6839a3491461b2f0613848401ab97916648be2d06",
+      "config_digest": "sha256:56b60bd27bf96e104c8cec78cfc6209b0db10f121bad23f1cd4ffc847b04a963",
+      "overlay_digest": "sha256:47002267dea98d545a2491a710af915ad5e9a6ea08087f1bd4a2a9ce05b3b41e"
+    },
+    "winner1": {
+      "digest": "sha256:a10e85efdc8fd4a4d695c6f3d6f57043dbafac66c342ba02df297fb73c26f8c7",
+      "config_digest": "sha256:18976f6f4ee5f99e8af210972a5d5bce49fe379b0877f0ee83c3db80bcb077d9",
+      "overlay_digest": "sha256:e8fd1540022a5d497733f53e7c18bfcc26c6b81985735104fdf314d8770c0225"
+    },
+    "winner2": {
+      "digest": "sha256:22edcf726e20a41237c3015a9b0c16a34956266db46ebdaac764acc478d51550",
+      "config_digest": "sha256:29c4164eafe498da70a3cd2850d18b3fe1aeb42720480854c8f18428121f9ca3",
+      "overlay_digest": "sha256:e6e762975cf14789f28e03d8792e8e4dc428f0527cfc8f9678addcab032dc7be"
+    },
+    "winner3": {
+      "digest": "sha256:755f0af39ac55696b505802fb9b4f219e5ee711b566b8fde5e2379fdf3d0fb6f",
+      "config_digest": "sha256:dbe60b61f9024f7c99e8d9cd413ecd886258c49a808601e5ea45f2fcec8388f3",
+      "overlay_digest": "sha256:fa1766ff446eb7f16a22f0463b1ad164cb7906bc196e8136c6f7bd2c1ad43961"
+    },
+    "winner4": {
+      "digest": "sha256:bd711c17de64f1b4c06e3f48dc8c290b86d888c88600fd787c542c958d68be1c",
+      "config_digest": "sha256:b22547fe6515b63e9d58dfb68096220c1fd786d29949c43a4faac658d7328f06",
+      "overlay_digest": "sha256:e4dd1e188aefa3e2594c67445d6de581ff5c7e03f905f11aff00209de7f7208b"
+    }
+  },
+  "published": false,
+  "full_hidden_qualification": false
+}

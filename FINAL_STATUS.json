@@ -1,0 +1,67 @@
+{
+  "status": "TECHNICAL_REVIEW_CANDIDATE_PREPARED_NOT_SUBMITTED",
+  "measured_Q": 0.15605353674103672,
+  "canonical_metrics": 1000,
+  "video_uploads": 1000,
+  "video_task_zips": 100,
+  "all_video_zip_digests_match_github": true,
+  "all_video_metric_hashes_match_results": true,
+  "ten_initial_gpu_screens_pass": true,
+  "ten_corrected_restricted_gpu_screens_pass": true,
+  "public_test_images": 10,
+  "all_ten_images_anonymous_pull_bytes_verified": true,
+  "published_application_runtime_families_rechecked": [
+    "pt12",
+    "winner1"
+  ],
+  "native_sources_or_weights_changed": false,
+  "exact_generated_cache_repair_included": true,
+  "original_cpu_build": "FAILED: one missing generated PYC; retained, not relabeled",
+  "full_hidden_qualification": false,
+  "fresh_docker_launch_with_exact_production_flags": false,
+  "real_isaac51_episode_or_1fps_verified": false,
+  "turing_verified": false,
+  "exact_60GB_hard_cap_verified": false,
+  "github_repo_private": true,
+  "github_release_draft": true,
+  "organizer_video_access_verified": false,
+  "licence_scope_unresolved": [
+    "Comet-parent weight redistribution",
+    "Amy specialist weight redistribution"
+  ],
+  "forms_submitted": false,
+  "joint_review_required_before_final_release": true,
+  "docker_temporary_publish_token": "deactivated; normal long-lived token untouched",
+  "runpod_stop": "Original pod stopped. Fresh pt12 and separate Amy candidate test pods active; combined estimated $0.854/h. Stop confirmation will be requested after evidence is saved.",
+  "tacc_running_jobs_interrupted": false,
+  "runpod_balance_observed_USD": 23.86,
+  "team_members": [
+    "Keshav Balakrishna",
+    "Abhijay Gangerapu",
+    "Nishan Mani",
+    "Rithik Satarla"
+  ],
+  "results_review": "REVIEW5",
+  "results_sha256": "3b1c9c939839e99dba15cfdd0a32a4ebdc5b0dcb03677a535443ec946219ffd6",
+  "fresh_published_container_check": {
+    "pod_id": "mhs1hgrx5j4gfc",
+    "model": "pt12",
+    "gpu": "RTX3090 24GB",
+    "status": "REFERENCE_CLIENT_SYNTHETIC_PROTOCOL_PASS",
+    "reference_client_pass": true,
+    "max_observed_WAN_query_s": 28.553826582967304
+  },
+  "amy_stage_table_mismatch": {
+    "tasks": [
+      96,
+      97
+    ],
+    "status": "CONFIRMED",
+    "candidate_config_prepared": true,
+    "GPU_tested": false,
+    "production_changed": false,
+    "measured_Q_gain": null,
+    "GPU_test_status": "Separate candidate pod zmpohbix9wk6ot downloading"
+  },
+  "fresh_docker_launch_verified": true
+}

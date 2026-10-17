@@ -1,0 +1,1255 @@
+{
+ "build": {
+  "comet_expect": [],
+  "fallback": [],
+  "hf_cache": false,
+  "mode": "image",
+  "task_fallback": []
+ },
+ "mode": "image",
+ "policies": {
+  "comet@ymetz9999": {
+   "chunk": 32,
+   "family": "comet",
+   "profile": {
+    "adapter": "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "execute_horizon": 32
+   },
+   "slot": "comet:comet@ymetz9999"
+  },
+  "pt12": {
+   "chunk": 32,
+   "family": "comet",
+   "profile": {
+    "adapter": "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "execute_horizon": 32
+   },
+   "slot": "comet:pt12"
+  },
+  "pt50": {
+   "chunk": 32,
+   "family": "comet",
+   "profile": {
+    "adapter": "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "execute_horizon": 32
+   },
+   "slot": "comet:pt50"
+  },
+  "s150997": {
+   "chunk": 32,
+   "family": "comet",
+   "profile": {
+    "adapter": "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "execute_horizon": 32
+   },
+   "slot": "comet:s150997"
+  },
+  "w100@b_amy_t90": {
+   "chunk": 20,
+   "family": "winner100",
+   "profile": {},
+   "slot": "w100:b_amy_t90"
+  },
+  "w100@j_jl_4task100": {
+   "chunk": 20,
+   "family": "winner100",
+   "profile": {},
+   "slot": "w100:j_jl_4task100"
+  },
+  "winner1": {
+   "chunk": 20,
+   "family": "winner",
+   "profile": {},
+   "slot": "winner:checkpoint_1"
+  },
+  "winner2": {
+   "chunk": 20,
+   "family": "winner",
+   "profile": {},
+   "slot": "winner:checkpoint_2"
+  },
+  "winner3": {
+   "chunk": 20,
+   "family": "winner",
+   "profile": {},
+   "slot": "winner:checkpoint_3"
+  },
+  "winner4": {
+   "chunk": 20,
+   "family": "winner",
+   "profile": {},
+   "slot": "winner:checkpoint_4"
+  }
+ },
+ "schema": "b1k-router-routes/1",
+ "slots": {
+  "comet:comet@ymetz9999": {
+   "cfg": {
+    "adapter": "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "checkpoint_dir": "/work/11940/balak35/b1k-handoff/ymetz9999",
+    "comet_repo": "/scratch/11940/balak35/b1k/comet/openpi-comet",
+    "config_name": "pi05_b1k-base",
+    "execute_horizon": 32,
+    "expect_param_bytes": 12440777544,
+    "expect_param_files": 18,
+    "task_mapping": "/scratch/11940/balak35/b1k/lib/comet100/task_mapping_100.json"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "/scratch/11940/balak35/b1k/lib/comet100/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/comet",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/comet/.openpi-cache",
+    "PYTHONUNBUFFERED": "1",
+    "TF_CPP_MIN_LOG_LEVEL": "0",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "comet",
+   "python": "/scratch/11940/balak35/b1k/comet/openpi-comet/.venv/bin/python",
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/work/11940/balak35/b1k-handoff/ymetz9999"
+   ]
+  },
+  "comet:pt12": {
+   "cfg": {
+    "adapter": "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/comet/checkpoints/pi05-b1kpt12-cs32",
+    "comet_repo": "/scratch/11940/balak35/b1k/comet/openpi-comet",
+    "config_name": "pi05_b1k-base",
+    "execute_horizon": 32,
+    "expect_param_bytes": 12441375745,
+    "expect_param_files": 5946,
+    "task_mapping": "/scratch/11940/balak35/b1k/lib/comet100/task_mapping_100.json"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "/scratch/11940/balak35/b1k/lib/comet100/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/comet",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/comet/.openpi-cache",
+    "PYTHONUNBUFFERED": "1",
+    "TF_CPP_MIN_LOG_LEVEL": "0",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "comet",
+   "python": "/scratch/11940/balak35/b1k/comet/openpi-comet/.venv/bin/python",
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/comet/checkpoints/pi05-b1kpt12-cs32"
+   ]
+  },
+  "comet:pt50": {
+   "cfg": {
+    "adapter": "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/comet/checkpoints/pi05-b1kpt50-cs32",
+    "comet_repo": "/scratch/11940/balak35/b1k/comet/openpi-comet",
+    "config_name": "pi05_b1k-base",
+    "execute_horizon": 32,
+    "expect_param_bytes": 12441360158,
+    "expect_param_files": 5946,
+    "task_mapping": "/scratch/11940/balak35/b1k/lib/comet100/task_mapping_100.json"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "/scratch/11940/balak35/b1k/lib/comet100/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/comet",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/comet/.openpi-cache",
+    "PYTHONUNBUFFERED": "1",
+    "TF_CPP_MIN_LOG_LEVEL": "0",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "comet",
+   "python": "/scratch/11940/balak35/b1k/comet/openpi-comet/.venv/bin/python",
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/comet/checkpoints/pi05-b1kpt50-cs32"
+   ]
+  },
+  "comet:s150997": {
+   "cfg": {
+    "adapter": "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/experiments/dev-cmp-20261009/ckpt/150997",
+    "comet_repo": "/scratch/11940/balak35/b1k/comet/openpi-comet",
+    "config_name": "pi05_b1k-base",
+    "execute_horizon": 32,
+    "expect_param_bytes": 12441140083,
+    "expect_param_files": 17,
+    "task_mapping": "/scratch/11940/balak35/b1k/lib/comet100/task_mapping_100.json"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/lib/comet100/serve_comet_b1k2026.py",
+    "/scratch/11940/balak35/b1k/lib/comet100/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/comet",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/comet/.openpi-cache",
+    "PYTHONUNBUFFERED": "1",
+    "TF_CPP_MIN_LOG_LEVEL": "0",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "comet",
+   "python": "/scratch/11940/balak35/b1k/comet/openpi-comet/.venv/bin/python",
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/experiments/dev-cmp-20261009/ckpt/150997"
+   ]
+  },
+  "w100:b_amy_t90": {
+   "cfg": {
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/public_specialists/amyjia_t90-91-93-96-97/step_099999",
+    "hash_mode": "size",
+    "openpi": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/openpi",
+    "openpi_tree": "/opt/b1k/manifests/winner_openpi_tree.json",
+    "port_dir": "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100",
+    "route_spec": "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/specs/b_amy_t90.json",
+    "seed": 0,
+    "source_verify": "files",
+    "winner_source": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/specs/b_amy_t90.json",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/serve_winner100.py",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/winner100_spec.py",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/serve_winner2026.py",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/protocol_2026.py",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/MANIFEST_winner100.json",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/source_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/cache/openpi",
+    "PYTHONUNBUFFERED": "1",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 11.0,
+   "family": "winner100",
+   "python": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/venv/bin/python",
+   "routes_tasks": [
+    91,
+    93,
+    96,
+    97
+   ],
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/public_specialists/amyjia_t90-91-93-96-97/step_099999"
+   ]
+  },
+  "w100:j_jl_4task100": {
+   "cfg": {
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/public_specialists/jl_4task100/pi_behavior_100t_meta_ft_4task",
+    "hash_mode": "size",
+    "openpi": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/openpi",
+    "openpi_tree": "/opt/b1k/manifests/winner_openpi_tree.json",
+    "port_dir": "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100",
+    "route_spec": "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/specs/j_jl_4task100.json",
+    "seed": 0,
+    "source_verify": "files",
+    "winner_source": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/specs/j_jl_4task100.json",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/serve_winner100.py",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/winner100_spec.py",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/serve_winner2026.py",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/protocol_2026.py",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/MANIFEST_winner100.json",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/source_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/winner100-20261011/winner100/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/cache/openpi",
+    "PYTHONUNBUFFERED": "1",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "winner100",
+   "python": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/venv/bin/python",
+   "routes_tasks": [
+    54,
+    56,
+    77,
+    98
+   ],
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/public_specialists/jl_4task100/pi_behavior_100t_meta_ft_4task"
+   ]
+  },
+  "winner:checkpoint_1": {
+   "cfg": {
+    "checkpoint": "checkpoint_1",
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/weights/checkpoint_1",
+    "openpi": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/openpi",
+    "openpi_tree": "/opt/b1k/manifests/winner_openpi_tree.json",
+    "port_dir": "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port",
+    "seed": 0,
+    "source_verify": "files",
+    "verify": "size",
+    "winner_source": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/serve_winner2026.py",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/protocol_2026.py",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/source_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/checkpoint_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/cache/openpi",
+    "PYTHONUNBUFFERED": "1",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "winner",
+   "python": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/venv/bin/python",
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/weights/checkpoint_1"
+   ]
+  },
+  "winner:checkpoint_2": {
+   "cfg": {
+    "checkpoint": "checkpoint_2",
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/weights/checkpoint_2",
+    "openpi": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/openpi",
+    "openpi_tree": "/opt/b1k/manifests/winner_openpi_tree.json",
+    "port_dir": "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port",
+    "seed": 0,
+    "source_verify": "files",
+    "verify": "size",
+    "winner_source": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/serve_winner2026.py",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/protocol_2026.py",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/source_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/checkpoint_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/cache/openpi",
+    "PYTHONUNBUFFERED": "1",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "winner",
+   "python": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/venv/bin/python",
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/weights/checkpoint_2"
+   ]
+  },
+  "winner:checkpoint_3": {
+   "cfg": {
+    "checkpoint": "checkpoint_3",
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/weights/checkpoint_3",
+    "openpi": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/openpi",
+    "openpi_tree": "/opt/b1k/manifests/winner_openpi_tree.json",
+    "port_dir": "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port",
+    "seed": 0,
+    "source_verify": "files",
+    "verify": "size",
+    "winner_source": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/serve_winner2026.py",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/protocol_2026.py",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/source_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/checkpoint_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/cache/openpi",
+    "PYTHONUNBUFFERED": "1",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "winner",
+   "python": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/venv/bin/python",
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/weights/checkpoint_3"
+   ]
+  },
+  "winner:checkpoint_4": {
+   "cfg": {
+    "checkpoint": "checkpoint_4",
+    "checkpoint_dir": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/weights/checkpoint_4",
+    "openpi": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/openpi",
+    "openpi_tree": "/opt/b1k/manifests/winner_openpi_tree.json",
+    "port_dir": "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port",
+    "seed": 0,
+    "source_verify": "files",
+    "verify": "size",
+    "winner_source": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src"
+   },
+   "code": [
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/serve_winner2026.py",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/protocol_2026.py",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/source_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/checkpoint_manifest.json",
+    "/scratch/11940/balak35/b1k/experiments/native-comparison-20261008/bundle-v2/winner-port/task_mapping_100.json"
+   ],
+   "cwd": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008",
+   "env": {
+    "OPENPI_DATA_HOME": "/scratch/11940/balak35/b1k/cache/openpi",
+    "PYTHONUNBUFFERED": "1",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+   },
+   "est_vram_gb": 10.0,
+   "family": "winner",
+   "python": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/venv/bin/python",
+   "unset_env": [
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "PYTHONPATH",
+    "PYTHONHOME"
+   ],
+   "weights": [
+    "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/weights/checkpoint_4"
+   ]
+  }
+ },
+ "source": {
+  "built_utc": "2026-10-16T01:01:15Z",
+  "route": "/scratch/11940/balak35/b1k/eval/official7/ROUTE.tsv",
+  "route2": "/scratch/11940/balak35/b1k/eval/official7/ROUTE2.frozen",
+  "route2_sha256": "dfa337a9417e8de406fc26bfc4fac8d540c2c419b84145314761d3a62dbc814e",
+  "route_sha256": "e577df0ff82353c8a89ea6fbc86320c0720fcb263c4108b33f2ae7f0051dbc76",
+  "tasks_tsv_sha256": "956ada575b466b5a9c58637771d8af540ef66942fdb6879c7b49d1c80e16cbaa"
+ },
+ "tasks": {
+  "0": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "turning_on_radio",
+   "policy": "pt12"
+  },
+  "1": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "picking_up_trash",
+   "policy": "winner2"
+  },
+  "10": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "set_up_a_coffee_station_in_your_kitchen",
+   "policy": "pt50"
+  },
+  "11": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "putting_dishes_away_after_cleaning",
+   "policy": "pt50"
+  },
+  "12": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "preparing_lunch_box",
+   "policy": "winner2"
+  },
+  "13": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "loading_the_car",
+   "policy": "winner1"
+  },
+  "14": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "carrying_in_groceries",
+   "policy": "winner1"
+  },
+  "15": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "bringing_in_wood",
+   "policy": "pt50"
+  },
+  "16": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "moving_boxes_to_storage",
+   "policy": "pt50"
+  },
+  "17": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "bringing_water",
+   "policy": "pt50"
+  },
+  "18": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "tidying_bedroom",
+   "policy": "winner2"
+  },
+  "19": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "outfit_a_basic_toolbox",
+   "policy": "winner1"
+  },
+  "2": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "putting_away_Halloween_decorations",
+   "policy": "pt50"
+  },
+  "20": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "sorting_vegetables",
+   "policy": "winner2"
+  },
+  "21": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "collecting_childrens_toys",
+   "policy": "pt50"
+  },
+  "22": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "putting_shoes_on_rack",
+   "policy": "pt50"
+  },
+  "23": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "boxing_books_up_for_storage",
+   "policy": "pt50"
+  },
+  "24": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "storing_food",
+   "policy": "pt50"
+  },
+  "25": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "clearing_food_from_table_into_fridge",
+   "policy": "winner1"
+  },
+  "26": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "assembling_gift_baskets",
+   "policy": "pt50"
+  },
+  "27": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "sorting_household_items",
+   "policy": "pt50"
+  },
+  "28": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "getting_organized_for_work",
+   "policy": "pt50"
+  },
+  "29": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "clean_up_your_desk",
+   "policy": "winner1"
+  },
+  "3": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "cleaning_up_plates_and_food",
+   "policy": "pt50"
+  },
+  "30": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "setting_the_fire",
+   "policy": "winner2"
+  },
+  "31": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "clean_boxing_gloves",
+   "policy": "winner3"
+  },
+  "32": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "wash_a_baseball_cap",
+   "policy": "winner3"
+  },
+  "33": {
+   "fallback": [
+    "pt50"
+   ],
+   "name": "wash_dog_toys",
+   "policy": "s150997"
+  },
+  "34": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "hanging_pictures",
+   "policy": "winner1"
+  },
+  "35": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "attach_a_camera_to_a_tripod",
+   "policy": "pt50"
+  },
+  "36": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "clean_a_patio",
+   "policy": "pt50"
+  },
+  "37": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "clean_a_trumpet",
+   "policy": "pt50"
+  },
+  "38": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "spraying_for_bugs",
+   "policy": "winner3"
+  },
+  "39": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "spraying_fruit_trees",
+   "policy": "pt50"
+  },
+  "4": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "can_meat",
+   "policy": "winner3"
+  },
+  "40": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "make_microwave_popcorn",
+   "policy": "winner4"
+  },
+  "41": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "cook_cabbage",
+   "policy": "pt50"
+  },
+  "42": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "chop_an_onion",
+   "policy": "winner1"
+  },
+  "43": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "slicing_vegetables",
+   "policy": "pt50"
+  },
+  "44": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "chopping_wood",
+   "policy": "winner1"
+  },
+  "45": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "cook_hot_dogs",
+   "policy": "pt50"
+  },
+  "46": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "cook_bacon",
+   "policy": "winner3"
+  },
+  "47": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "freeze_pies",
+   "policy": "winner1"
+  },
+  "48": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "canning_food",
+   "policy": "winner1"
+  },
+  "49": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "make_pizza",
+   "policy": "pt50"
+  },
+  "5": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "setting_mousetraps",
+   "policy": "winner1"
+  },
+  "50": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "freeze_fruit",
+   "policy": "comet@ymetz9999"
+  },
+  "51": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "cook_a_brisket",
+   "policy": "comet@ymetz9999"
+  },
+  "52": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "sorting_bottles_cans_and_paper",
+   "policy": "comet@ymetz9999"
+  },
+  "53": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "tidying_living_room",
+   "policy": "comet@ymetz9999"
+  },
+  "54": {
+   "fallback": [
+    "s150997",
+    "pt50"
+   ],
+   "name": "putting_away_toys",
+   "policy": "w100@j_jl_4task100"
+  },
+  "55": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "re_shelving_library_books",
+   "policy": "comet@ymetz9999"
+  },
+  "56": {
+   "fallback": [
+    "s150997",
+    "pt50"
+   ],
+   "name": "make_rose_centerpieces",
+   "policy": "w100@j_jl_4task100"
+  },
+  "57": {
+   "fallback": [
+    "pt50"
+   ],
+   "name": "sweeping_garage",
+   "policy": "s150997"
+  },
+  "58": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "stacking_wood",
+   "policy": "comet@ymetz9999"
+  },
+  "59": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "organizing_art_supplies",
+   "policy": "comet@ymetz9999"
+  },
+  "6": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "hiding_Easter_eggs",
+   "policy": "pt50"
+  },
+  "60": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "scrubbing_bathroom_floor",
+   "policy": "comet@ymetz9999"
+  },
+  "61": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "bringing_paper_to_recycling",
+   "policy": "comet@ymetz9999"
+  },
+  "62": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "halve_an_egg",
+   "policy": "comet@ymetz9999"
+  },
+  "63": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "installing_smoke_detectors",
+   "policy": "comet@ymetz9999"
+  },
+  "64": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "setting_the_table",
+   "policy": "comet@ymetz9999"
+  },
+  "65": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "unloading_the_car",
+   "policy": "comet@ymetz9999"
+  },
+  "66": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "turning_out_all_lights_before_sleep",
+   "policy": "comet@ymetz9999"
+  },
+  "67": {
+   "fallback": [
+    "pt50"
+   ],
+   "name": "boxing_food_after_dinner",
+   "policy": "s150997"
+  },
+  "68": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "cleaning_up_branches_and_twigs",
+   "policy": "comet@ymetz9999"
+  },
+  "69": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "vacuuming_floors",
+   "policy": "comet@ymetz9999"
+  },
+  "7": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "picking_up_toys",
+   "policy": "pt50"
+  },
+  "70": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "thawing_frozen_food",
+   "policy": "comet@ymetz9999"
+  },
+  "71": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "clean_your_rusty_garden_tools",
+   "policy": "comet@ymetz9999"
+  },
+  "72": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "cook_a_frozen_pie",
+   "policy": "comet@ymetz9999"
+  },
+  "73": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "organizing_school_stuff",
+   "policy": "comet@ymetz9999"
+  },
+  "74": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "carrying_out_garden_furniture",
+   "policy": "comet@ymetz9999"
+  },
+  "75": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "put_together_a_basic_pruning_kit",
+   "policy": "comet@ymetz9999"
+  },
+  "76": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "dispose_of_glass",
+   "policy": "comet@ymetz9999"
+  },
+  "77": {
+   "fallback": [
+    "s150997",
+    "pt50"
+   ],
+   "name": "installing_a_modem",
+   "policy": "w100@j_jl_4task100"
+  },
+  "78": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "make_cabinet_doors",
+   "policy": "comet@ymetz9999"
+  },
+  "79": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "polishing_shoes",
+   "policy": "comet@ymetz9999"
+  },
+  "8": {
+   "fallback": [
+    "s150997"
+   ],
+   "name": "rearranging_kitchen_furniture",
+   "policy": "pt50"
+  },
+  "80": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "clean_up_broken_glass",
+   "policy": "comet@ymetz9999"
+  },
+  "81": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "packing_meal_for_delivery",
+   "policy": "comet@ymetz9999"
+  },
+  "82": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "store_batteries",
+   "policy": "comet@ymetz9999"
+  },
+  "83": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "store_honey",
+   "policy": "comet@ymetz9999"
+  },
+  "84": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "tidying_bathroom",
+   "policy": "comet@ymetz9999"
+  },
+  "85": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "putting_dirty_dishes_in_sink",
+   "policy": "comet@ymetz9999"
+  },
+  "86": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "make_gift_bags_for_baby_showers",
+   "policy": "comet@ymetz9999"
+  },
+  "87": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "collecting_aluminum_cans",
+   "policy": "comet@ymetz9999"
+  },
+  "88": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "rearrange_your_room",
+   "policy": "comet@ymetz9999"
+  },
+  "89": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "installing_a_fax_machine",
+   "policy": "comet@ymetz9999"
+  },
+  "9": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "putting_up_Christmas_decorations_inside",
+   "policy": "pt12"
+  },
+  "90": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "composting_waste",
+   "policy": "comet@ymetz9999"
+  },
+  "91": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "store_produce",
+   "policy": "comet@ymetz9999"
+  },
+  "92": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "installing_a_scanner",
+   "policy": "comet@ymetz9999"
+  },
+  "93": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "clean_a_keyboard",
+   "policy": "comet@ymetz9999"
+  },
+  "94": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "dispose_of_batteries",
+   "policy": "comet@ymetz9999"
+  },
+  "95": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "cook_brussels_sprouts",
+   "policy": "comet@ymetz9999"
+  },
+  "96": {
+   "fallback": [
+    "s150997",
+    "pt50"
+   ],
+   "name": "cook_broccolini",
+   "policy": "w100@b_amy_t90"
+  },
+  "97": {
+   "fallback": [
+    "s150997",
+    "pt50"
+   ],
+   "name": "setup_a_bar_for_a_cocktail_party",
+   "policy": "w100@b_amy_t90"
+  },
+  "98": {
+   "fallback": [
+    "s150997",
+    "pt50"
+   ],
+   "name": "laying_tile_floors",
+   "policy": "w100@j_jl_4task100"
+  },
+  "99": {
+   "fallback": [
+    "pt50",
+    "s150997"
+   ],
+   "name": "sorting_books_on_shelf",
+   "policy": "comet@ymetz9999"
+  }
+ }
+}

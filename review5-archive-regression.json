@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "crc": "PASS",
+  "changed_files": [
+    "standard.public.KANR.Independent.20261016/README.md"
+  ],
+  "only_member_README_changed": true,
+  "all_other_archive_bytes_unchanged": true,
+  "sha256": "3b1c9c939839e99dba15cfdd0a32a4ebdc5b0dcb03677a535443ec946219ffd6"
+}

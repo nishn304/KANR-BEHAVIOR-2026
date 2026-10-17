@@ -1,0 +1,33 @@
+{
+  "schema": "kanr-cloud-startup-screen/1",
+  "image_digest": "sha256:fc825220403c3c8d259a7ec0585e7643de83a3a5e317b0f9b5c095de22f5c98e",
+  "qualification": false,
+  "real_dev_inference_tested": false,
+  "batch10_tested": false,
+  "simulator_tested": false,
+  "hard_ram_cap": false,
+  "hard_network_isolation": false,
+  "readonly_rootfs": false,
+  "models": [
+    {
+      "policy": "pt12",
+      "model_sha256": "f242d2fe0640a16d5231461cc6df488cc456a9a226eebff1dda5fada185fa177",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 51.06417485233396,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "winner1",
+      "model_sha256": "7a7fc5c4d60aa2a131ee19f4aa216e180c44ebaa11fd3d34fe9f7b6dc229e202",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 76.46148358518258,
+      "synthetic_wire_pass": true
+    }
+  ]
+}

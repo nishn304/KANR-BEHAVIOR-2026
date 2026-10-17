@@ -1,0 +1,33 @@
+{
+  "status": "PUBLISHER_STAGE_TABLE_MISMATCH_CONFIRMED",
+  "tasks": [
+    96,
+    97
+  ],
+  "frozen_adapter": {
+    "96": {
+      "stages": 5,
+      "offset": 1047
+    },
+    "97": {
+      "stages": 15,
+      "offset": 1052
+    }
+  },
+  "publisher_corrected_adapter": {
+    "96": {
+      "stages": 10,
+      "offset": 1047
+    },
+    "97": {
+      "stages": 10,
+      "offset": 1057
+    }
+  },
+  "publisher_url": "https://huggingface.co/amyjia1212/b1k-2026-eval-code",
+  "corrected_spec_already_in_frozen_native_image": true,
+  "native_source_hashes_match_inventory": true,
+  "selected_policies_changed": false,
+  "official_results_changed": false,
+  "Q_gain_measured": null
+}

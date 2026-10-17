@@ -1,0 +1,365 @@
+{
+  "schema": "kanr-cachefix-gpu-screen/1",
+  "qualification": false,
+  "real_dev_inference_tested": false,
+  "simulator_tested": false,
+  "all_input_observations_synthetic": true,
+  "hardware": "RTX 3090 24576 MiB, driver 595.71.05",
+  "models": [
+    {
+      "policy": "comet-ymetz9999",
+      "model_sha256": "204a6a6725e004c54da86e638d3f749143f4a3da6d2b76d5f8792bdb3866fb01",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 52.90195528790355,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-original-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.26177739538252354,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 2.912440058309585,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.27204417204484344,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8494.0,
+      "sampled_peak_server_rss_gb": 17.80719616,
+      "not_true_peak": true
+    },
+    {
+      "policy": "pt50",
+      "model_sha256": "c8c74595d88dce01c161511f6d79fb1cbac8ed086602be54a35e7a7eb60d06ba",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 52.520369249396026,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-original-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.292089129332453,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 2.8889448503032327,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.2710046279244125,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8492.0,
+      "sampled_peak_server_rss_gb": 42.230177792,
+      "not_true_peak": true
+    },
+    {
+      "policy": "pt12",
+      "model_sha256": "f242d2fe0640a16d5231461cc6df488cc456a9a226eebff1dda5fada185fa177",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 51.680596946273,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-original-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.27463454892858863,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 2.944855540059507,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.292482647113502,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8622.0,
+      "sampled_peak_server_rss_gb": 46.577045504,
+      "not_true_peak": true
+    },
+    {
+      "policy": "s150997",
+      "model_sha256": "ce685a85e1f7bfe2d152a919f536949beeffc91a322865b12dc7c8363d683a76",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 53.75811048364267,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-original-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.2666138312779367,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 2.8725182437337935,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.2818906023167074,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8494.0,
+      "sampled_peak_server_rss_gb": 26.770239488,
+      "not_true_peak": true
+    },
+    {
+      "policy": "winner1",
+      "model_sha256": "7a7fc5c4d60aa2a131ee19f4aa216e180c44ebaa11fd3d34fe9f7b6dc229e202",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 77.56877258000895,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-fixed-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.329235116019845,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 3.098246259149164,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.32066758815199137,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8544.0,
+      "sampled_peak_server_rss_gb": 43.793596416,
+      "not_true_peak": true
+    },
+    {
+      "policy": "winner3",
+      "model_sha256": "660b8a00f2f50b41ee0e7c727e88227e271e7be26f8c288729ef72a3b647d9b1",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 75.61609540088102,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-fixed-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.3318598410114646,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 3.063120595179498,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.2992633869871497,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8536.0,
+      "sampled_peak_server_rss_gb": 15.091269632,
+      "not_true_peak": true
+    },
+    {
+      "policy": "winner2",
+      "model_sha256": "a995c9f7d2ec4328120814e7d6e32a723c9d43d09c86e44842056a25429e557f",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 76.0922681777738,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-fixed-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.3298786892555654,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 3.1370301763527095,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.3134398669935763,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8548.0,
+      "sampled_peak_server_rss_gb": 25.256914944,
+      "not_true_peak": true
+    },
+    {
+      "policy": "winner4",
+      "model_sha256": "1cfe98d935895deb37998811d088235db9ebabd398073673f1d8a3e0fdd9f17d",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 78.24860429996625,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-fixed-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.3393813790753484,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 3.1298352358862758,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.27008746890351176,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8791.0,
+      "sampled_peak_server_rss_gb": 20.329971712,
+      "not_true_peak": true
+    },
+    {
+      "policy": "w100-j_jl_4task100",
+      "model_sha256": "fb6488974fd9c7b5df000c6968b70a1bd080398149867d319955970fb3f35f72",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 77.48599194409326,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-fixed-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.3318780311383307,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 3.0292261680588126,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.2866251398809254,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8536.0,
+      "sampled_peak_server_rss_gb": 18.95264256,
+      "not_true_peak": true
+    },
+    {
+      "policy": "w100-b_amy_t90",
+      "model_sha256": "ed830f8719c02726c9e88704b0483962145509da2764f786172695942dc208bf",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 80.99185466812924,
+      "synthetic_wire_pass": true,
+      "source_screen": "screen-fixed-layout",
+      "client_rows": [
+        {
+          "batch": 1,
+          "actions": 64,
+          "max_client_call_s": 0.3625419810414314,
+          "synthetic_input": true
+        },
+        {
+          "batch": 10,
+          "actions": 64,
+          "max_client_call_s": 3.3807717054151,
+          "synthetic_input": true
+        }
+      ],
+      "evaluator_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+      "disconnect": {
+        "status": "IDLE_TRANSPORT_LOSS_RESET_NEW_REAL_ACTION_PASS",
+        "post_reset_call_s": 0.32822089502587914,
+        "ambiguous_inflight_query_tested": false,
+        "same_episode_exactly_once_recovery_claimed": false
+      },
+      "sampled_peak_gpu_mib": 8532.0,
+      "sampled_peak_server_rss_gb": 25.757822976,
+      "not_true_peak": true
+    }
+  ],
+  "preserved_prior_failures": [
+    "../runpod-tests/initial-failure-results",
+    "screen-original-layout/summary.json"
+  ],
+  "fixed_layout_reason": "winner manifest absolute path must match /opt/b1k-strict"
+}

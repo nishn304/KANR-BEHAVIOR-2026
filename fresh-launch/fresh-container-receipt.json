@@ -1,0 +1,30 @@
+{
+  "status": "FRESH_FINAL_PT12_CONTAINER_LOAD_AND_REFERENCE_CLIENT_PASS",
+  "pod_id": "mhs1hgrx5j4gfc",
+  "image": "gnishan123/b1k-submission@sha256:a76256c005327fdf06a184365b8338e088cc9e130923401f2226c8a1e3a0b46c",
+  "provider_UI_hardware": "RTX 3090 24GB,62GB RAM",
+  "readyz": "HTTP200 OK",
+  "reference_client_result_sha256": "10de1bb55c78e1d73278e4066c7b087753e903128ece1add3471cdd0ae6b89ca",
+  "batch_sizes": [
+    1,
+    10
+  ],
+  "actions_per_batch": 64,
+  "finite_output_shape": "(B,23)",
+  "global_chunk": 4,
+  "real_episode": false,
+  "exact_readonly_60GB_production_flags": false,
+  "Turing": false,
+  "Q_gain": null,
+  "TACC_modified": false,
+  "actual_gpu": "NVIDIA GeForce RTX 3090",
+  "actual_compute_capability": "8.6",
+  "actual_driver": "580.126.20",
+  "actual_VRAM_MiB": 24576,
+  "platform_tini_warning": "RunPod invokes Tini below its own init; not PID1/subreaper. Native Docker PID1 signal behavior is not established by this platform test.",
+  "evidence_sha256": {
+    "pt12-provider-container.log": "84e8fcf02f1d8168f1a646daa258531a34081eaba483c1dd69e0e49889aac891",
+    "pt12-provider-system.log": "bc5340a6d93c8f25b33f893d030562f0e18242eb4e9a2101f5b55c811d2d2d68",
+    "pt12-fresh-result.json": "10de1bb55c78e1d73278e4066c7b087753e903128ece1add3471cdd0ae6b89ca"
+  }
+}

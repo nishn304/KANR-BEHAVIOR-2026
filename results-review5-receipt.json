@@ -1,0 +1,15 @@
+{
+  "file": "DRAFT-REVIEW5-standard.public.KANR.Independent.20261017.zip",
+  "bytes": 519780,
+  "sha256": "3b1c9c939839e99dba15cfdd0a32a4ebdc5b0dcb03677a535443ec946219ffd6",
+  "only_changed_member": "standard.public.KANR.Independent.20261016/README.md",
+  "all_metric_wrapper_robot_bytes_unchanged": true,
+  "members": [
+    "Keshav Balakrishna",
+    "Abhijay Gangerapu",
+    "Nishan Mani",
+    "Rithik Satarla"
+  ],
+  "Q": 0.15605353674103672,
+  "submitted": false
+}

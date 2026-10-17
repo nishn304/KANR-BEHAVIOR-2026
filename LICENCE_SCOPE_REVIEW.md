@@ -1,0 +1,25 @@
+# Licence evidence for the joint release review
+
+**The exact winner source licence file is now recovered and hash-verified. Amy’s selected weights and the Comet parent’s off-platform weight-redistribution scope remain unresolved.** This is an evidence audit, not a legal clearance certification. No author was contacted and no release, route, image or job was changed.
+
+| Artifact | Evidence checked | Readiness conclusion |
+|---|---|---|
+| Winner source licence | Recovered 11,327-byte Apache-2.0 source file at expected SHA256 `7dea28060f46e80e22f730ff734a9d685370faa1c5ec9cf5329595a0e33ebbc0`; source revision `ca556f74a455cef7987a2be4537b5ac85cc56dd7` | Prior missing-file access hold closed. Preserve these exact bytes. |
+| Amy `b1k-2026-t90-91-93-96-97`, revision `7519e44670b9c589ed8fe3ce65a5a17583ae9cff`, `step_099999/` | Saved exact repository metadata: public, ungated, 896 files; no cardData, licence tag or README/LICENSE/NOTICE filename. Fresh model/profile/API/card requests were inaccessible to this web tool. | No explicit publisher weight grant found. Fresh retrieval failure is not evidence that the model is unavailable or that no later grant exists. Selected for tasks 96/97. [Pinned repository](https://huggingface.co/amyjia1212/b1k-2026-t90-91-93-96-97/tree/7519e44670b9c589ed8fe3ce65a5a17583ae9cff). |
+| Comet pt50/pt12, revision `61739ffbced89dd5ba1b87c30d93d6084b79b0af` | Fresh [HF root](https://huggingface.co/sunshk/openpi_comet/tree/main) shows selected revision prefix, two checkpoint folders, `.gitattributes`, README, and no root licence badge/file. [Code licence](https://github.com/mli0603/openpi-comet/blob/main/LICENSE) is Apache-2.0; [README](https://github.com/mli0603/openpi-comet/blob/main/README.md) publishes and links weights. | Intended model reuse is supported by the release instructions. Explicit Apache coverage of the separately hosted weight files was not found. Affects pt50, pt12, s150997 and ymetz9999, together 72 selected tasks. |
+| ymetz9999 | Exact archived card says its licence follows the base checkpoint and OpenPI. | Inherits the unresolved parent scope; credit does not replace a grant. |
+
+The [OpenPI publisher answer](https://github.com/Physical-Intelligence/openpi/issues/263) expressly addresses model-weight licensing and states Apache-2.0. That supports the OpenPI base; it does not establish a later publisher’s separate terms. Ilia and Jack’s direct Apache model declarations remain preserved in the earlier licence matrix, subject to their inherited terms.
+
+**Nuance missing from a simple “public is not licensed” statement:** [Hugging Face’s Terms](https://huggingface.co/terms-of-service), Your Content, grant users rights in public repositories **“through our Services and functionalities.”** This is a real platform-scoped grant. It is not evidence of an unrestricted Apache licence for uploading the same weights to Docker Hub. HF also preserves customary licences attached to content. This audit does not decide a broader legal interpretation of that scope.
+
+**What can be stated at review:** explicit Apache-covered code and the Ilia/Jack publisher declarations have redistribution terms, provided their notices, change disclosures and inherited conditions are met. We cannot yet represent Amy/Comet weight redistribution outside HF as expressly cleared by the collected evidence. This is an unresolved scope question, not a finding that use is unlawful.
+
+**All ten derived images matter:** the current shared canary base physically includes all ten model roots. Serving only winner1 does not remove Amy/Comet bytes from that image. An upper-layer deletion would not remove them from inherited image blobs either. Private registry delivery also remains distribution. Do not call any shared-base image wholly licence-cleared solely because its active model has an Apache declaration. Do not change frozen routes or drop tasks based on this audit.
+
+The existing notice bundle records credits and inherited OpenPI/Gemma terms; those notices must remain. The archived raw licence, cards, model-origin hashes and current lookup outcomes are recorded in `status.json`. No new permission request, publication or blanket clearance claim was made.
+
+
+## Fresh recheck — October17
+
+Direct, certificate-verified Hugging Face API requests succeeded. Amy selected weight revision7519e44670b9c589ed8fe3ce65a5a17583ae9cff still has no model card data or README/LICENSE/NOTICE files. Comet selected revision61739ffbced89dd5ba1b87c30d93d6084b79b0af still has no weight licence declaration; its README points to the Apache-licensed code repository. The newer amyjia1212/b1k-2026-eval-code repository is tagged Apache-2.0 for its evaluation code, but no statement extending that licence to the selected separate weight repository was found. This recheck closes the earlier retrieval/access uncertainty, but does not close the separate weight-distribution scope question. No author was contacted. Evidence is retained in licence-recheck-20261017/.

@@ -1,0 +1,36 @@
+{
+  "status": "FRESH_PUBLISHED_CONTAINER_REFERENCE_CLIENT_SYNTHETIC_PROTOCOL_PASS",
+  "q_score": null,
+  "real_simulator_episode": false,
+  "exact_production_flags_tested": false,
+  "exact_60GB_hard_cap_tested": false,
+  "end_to_end_episode_1fps_tested": false,
+  "reference_client_sha256": "a9cc50bd502e1a4599db353f7afbd22d371bd5aa0ba22b6dfc412b09de4e91d1",
+  "server_metadata": {
+    "protocol": "b1k-2026",
+    "policy": "pt12",
+    "action_dim": 23,
+    "max_batch": 10,
+    "action_chunk_size": 4,
+    "failure_mode": "terminal"
+  },
+  "task_id": 0,
+  "rows": [
+    {
+      "batch": 1,
+      "actions": 64,
+      "max_roundtrip_s": 0.6871322919614613,
+      "total_act_s": 7.647443749476224,
+      "synthetic_input": true,
+      "includes_Mac_to_cloud_WAN": true
+    },
+    {
+      "batch": 10,
+      "actions": 64,
+      "max_roundtrip_s": 28.553826582967304,
+      "total_act_s": 103.08442583156284,
+      "synthetic_input": true,
+      "includes_Mac_to_cloud_WAN": true
+    }
+  ]
+}

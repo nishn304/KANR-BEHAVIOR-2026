@@ -1,0 +1,113 @@
+{
+  "schema": "kanr-cloud-startup-screen/1",
+  "image_digest": "sha256:fc825220403c3c8d259a7ec0585e7643de83a3a5e317b0f9b5c095de22f5c98e",
+  "qualification": false,
+  "real_dev_inference_tested": false,
+  "batch10_tested": false,
+  "simulator_tested": false,
+  "hard_ram_cap": false,
+  "hard_network_isolation": false,
+  "readonly_rootfs": false,
+  "models": [
+    {
+      "policy": "pt12",
+      "model_sha256": "f242d2fe0640a16d5231461cc6df488cc456a9a226eebff1dda5fada185fa177",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 53.115799400024116,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "comet-ymetz9999",
+      "model_sha256": "204a6a6725e004c54da86e638d3f749143f4a3da6d2b76d5f8792bdb3866fb01",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 54.46442682156339,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "pt50",
+      "model_sha256": "c8c74595d88dce01c161511f6d79fb1cbac8ed086602be54a35e7a7eb60d06ba",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 53.23301810538396,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "s150997",
+      "model_sha256": "ce685a85e1f7bfe2d152a919f536949beeffc91a322865b12dc7c8363d683a76",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 53.444234441034496,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "winner1",
+      "model_sha256": "7a7fc5c4d60aa2a131ee19f4aa216e180c44ebaa11fd3d34fe9f7b6dc229e202",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 78.90115994308144,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "winner3",
+      "model_sha256": "660b8a00f2f50b41ee0e7c727e88227e271e7be26f8c288729ef72a3b647d9b1",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 76.20702415332198,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "winner2",
+      "model_sha256": "a995c9f7d2ec4328120814e7d6e32a723c9d43d09c86e44842056a25429e557f",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 77.44005641713738,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "winner4",
+      "model_sha256": "1cfe98d935895deb37998811d088235db9ebabd398073673f1d8a3e0fdd9f17d",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 77.27942929323763,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "w100-j_jl_4task100",
+      "model_sha256": "fb6488974fd9c7b5df000c6968b70a1bd080398149867d319955970fb3f35f72",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 77.77178770489991,
+      "synthetic_wire_pass": true
+    },
+    {
+      "policy": "w100-b_amy_t90",
+      "model_sha256": "ed830f8719c02726c9e88704b0483962145509da2764f786172695942dc208bf",
+      "startup_pass": true,
+      "qualification": false,
+      "server_uid": 65532,
+      "server_gid": 65532,
+      "ready_s": 78.61103934887797,
+      "synthetic_wire_pass": true
+    }
+  ]
+}
