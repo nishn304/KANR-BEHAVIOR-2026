@@ -2,7 +2,7 @@
 
 EVALUATION PACKAGE FOR JOINT REVIEW. No challenge submission has been sent. Synthetic GPU/protocol screens passed; full hidden-runtime qualification and two weight-redistribution scopes remain unresolved below. This documentation release does not assert otherwise.
 
-Team: Keshav Balakrishna, Abhijay Gangarapu, Nishan Mani, Rithik Satarla. Affiliation: Independent. Contact: nishanmanisd@gmail.com.
+Team: Keshav Balakrishna, Abhijay Gangarapu, Nishan Mani, Rithik Satarla. Affiliation: UT/Independent. Contact: nishanmanisd@gmail.com.
 
 ## Method
 We use a frozen task-to-policy mapping across ten checkpoint configurations (nine public and one team continuation). Policy choices use development instances 311–320; scored instances 301–310 are not used to select policies. Each task uses one selected policy. Model inference uses RGB/depth/proprioception through the corresponding native serving adapter, without privileged simulator state. The final package preserves native precision, normalization, checkpoint parameters and model planning horizons.

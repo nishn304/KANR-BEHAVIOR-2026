@@ -1,7 +1,7 @@
 {
-  "status": "ALL_1000_STAGED_PRIVATE_DIGEST_VERIFIED",
-  "anonymous_access_verified": false,
-  "published": false,
+  "status": "ALL_1000_PUBLIC_LINKS_VERIFIED",
+  "anonymous_access_verified": true,
+  "published": true,
   "tasks": [
     {
       "task": "assembling_gift_baskets",

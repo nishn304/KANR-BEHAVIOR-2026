@@ -1,0 +1,911 @@
+{
+  "checked_at_utc": "2026-10-17T10:45:32.782399+00:00",
+  "authentication_used": false,
+  "submitted": false,
+  "links": {
+    "evaluation_readme": {
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/blob/main/README.md",
+      "http": 200,
+      "bytes": 258374,
+      "sha256": "838d65805ded77edf0afebc533d6db69b29712a6d47020af4a67a64560e57ffd"
+    },
+    "release": {
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/tag/v1-review",
+      "http": 200,
+      "bytes": 191386,
+      "sha256": "00b9f5999d1fade745a65f48e5ad71024ed2622c10c8ed92d9dfcefa1f485a58"
+    },
+    "code": {
+      "url": "https://github.com/FungousLand1941/policy-bank",
+      "http": 200,
+      "bytes": 338328,
+      "sha256": "796abf0267e4007e302d994c970a2da70d3438f60117ff82b17c7ffb056048a5"
+    },
+    "website": {
+      "url": "https://policy-bank.vercel.app",
+      "http": 200,
+      "bytes": 77348,
+      "sha256": "deac7ae98e6ff5e839b731af768124cf978acca4136c795a18c8e83949c13ce8"
+    },
+    "paper": {
+      "url": "https://policy-bank.vercel.app/paper.pdf",
+      "http": 200,
+      "bytes": 718196,
+      "sha256": "89f2ceec7807e07480586d3347940585671144466981e62524078558a31f797f"
+    },
+    "map": {
+      "url": "https://raw.githubusercontent.com/nishn304/KANR-BEHAVIOR-2026/main/task-image-map.tsv",
+      "http": 200,
+      "bytes": 15012,
+      "sha256": "7cb77a160d448c8bc7202ad1f8e05d50f37cc6bf2b0eb1c68cec608e26e2979c"
+    },
+    "instructions": {
+      "url": "https://raw.githubusercontent.com/nishn304/KANR-BEHAVIOR-2026/main/RUN_INSTRUCTIONS.md",
+      "http": 200,
+      "bytes": 1934,
+      "sha256": "ea5ea2a6a9ab538c882091a4a2478b0d1c6609a431731d4dbca2d02546b4dc30"
+    }
+  },
+  "results": {
+    "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/standard.public.KANR.Independent.20261016.zip",
+    "http": 200,
+    "bytes": 519781,
+    "sha256": "690a13fee1b2ef4aba0f927b1f0307a48e2e303a51df6a26863dac6047f29cc4"
+  },
+  "videos": [
+    {
+      "task": "assembling_gift_baskets",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/assembling_gift_baskets.zip",
+      "http": 200,
+      "content_length": 1176941519,
+      "expected_bytes": 1176941519,
+      "size_matches": true
+    },
+    {
+      "task": "attach_a_camera_to_a_tripod",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/attach_a_camera_to_a_tripod.zip",
+      "http": 200,
+      "content_length": 124797832,
+      "expected_bytes": 124797832,
+      "size_matches": true
+    },
+    {
+      "task": "boxing_books_up_for_storage",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/boxing_books_up_for_storage.zip",
+      "http": 200,
+      "content_length": 762552388,
+      "expected_bytes": 762552388,
+      "size_matches": true
+    },
+    {
+      "task": "boxing_food_after_dinner",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/boxing_food_after_dinner.zip",
+      "http": 200,
+      "content_length": 312708288,
+      "expected_bytes": 312708288,
+      "size_matches": true
+    },
+    {
+      "task": "bringing_in_wood",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/bringing_in_wood.zip",
+      "http": 200,
+      "content_length": 496434559,
+      "expected_bytes": 496434559,
+      "size_matches": true
+    },
+    {
+      "task": "bringing_paper_to_recycling",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/bringing_paper_to_recycling.zip",
+      "http": 200,
+      "content_length": 517214851,
+      "expected_bytes": 517214851,
+      "size_matches": true
+    },
+    {
+      "task": "bringing_water",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/bringing_water.zip",
+      "http": 200,
+      "content_length": 270173068,
+      "expected_bytes": 270173068,
+      "size_matches": true
+    },
+    {
+      "task": "can_meat",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/can_meat.zip",
+      "http": 200,
+      "content_length": 386174036,
+      "expected_bytes": 386174036,
+      "size_matches": true
+    },
+    {
+      "task": "canning_food",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/canning_food.zip",
+      "http": 200,
+      "content_length": 596640179,
+      "expected_bytes": 596640179,
+      "size_matches": true
+    },
+    {
+      "task": "carrying_in_groceries",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/carrying_in_groceries.zip",
+      "http": 200,
+      "content_length": 367695612,
+      "expected_bytes": 367695612,
+      "size_matches": true
+    },
+    {
+      "task": "carrying_out_garden_furniture",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/carrying_out_garden_furniture.zip",
+      "http": 200,
+      "content_length": 588840640,
+      "expected_bytes": 588840640,
+      "size_matches": true
+    },
+    {
+      "task": "chop_an_onion",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/chop_an_onion.zip",
+      "http": 200,
+      "content_length": 152969225,
+      "expected_bytes": 152969225,
+      "size_matches": true
+    },
+    {
+      "task": "chopping_wood",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/chopping_wood.zip",
+      "http": 200,
+      "content_length": 494586375,
+      "expected_bytes": 494586375,
+      "size_matches": true
+    },
+    {
+      "task": "clean_a_keyboard",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/clean_a_keyboard.zip",
+      "http": 200,
+      "content_length": 94568372,
+      "expected_bytes": 94568372,
+      "size_matches": true
+    },
+    {
+      "task": "clean_a_patio",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/clean_a_patio.zip",
+      "http": 200,
+      "content_length": 764928252,
+      "expected_bytes": 764928252,
+      "size_matches": true
+    },
+    {
+      "task": "clean_a_trumpet",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/clean_a_trumpet.zip",
+      "http": 200,
+      "content_length": 185162693,
+      "expected_bytes": 185162693,
+      "size_matches": true
+    },
+    {
+      "task": "clean_boxing_gloves",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/clean_boxing_gloves.zip",
+      "http": 200,
+      "content_length": 207982511,
+      "expected_bytes": 207982511,
+      "size_matches": true
+    },
+    {
+      "task": "clean_up_broken_glass",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/clean_up_broken_glass.zip",
+      "http": 200,
+      "content_length": 398751750,
+      "expected_bytes": 398751750,
+      "size_matches": true
+    },
+    {
+      "task": "clean_up_your_desk",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/clean_up_your_desk.zip",
+      "http": 200,
+      "content_length": 796587621,
+      "expected_bytes": 796587621,
+      "size_matches": true
+    },
+    {
+      "task": "clean_your_rusty_garden_tools",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/clean_your_rusty_garden_tools.zip",
+      "http": 200,
+      "content_length": 633816125,
+      "expected_bytes": 633816125,
+      "size_matches": true
+    },
+    {
+      "task": "cleaning_up_branches_and_twigs",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cleaning_up_branches_and_twigs.zip",
+      "http": 200,
+      "content_length": 724395657,
+      "expected_bytes": 724395657,
+      "size_matches": true
+    },
+    {
+      "task": "cleaning_up_plates_and_food",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cleaning_up_plates_and_food.zip",
+      "http": 200,
+      "content_length": 582797022,
+      "expected_bytes": 582797022,
+      "size_matches": true
+    },
+    {
+      "task": "clearing_food_from_table_into_fridge",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/clearing_food_from_table_into_fridge.zip",
+      "http": 200,
+      "content_length": 447984687,
+      "expected_bytes": 447984687,
+      "size_matches": true
+    },
+    {
+      "task": "collecting_aluminum_cans",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/collecting_aluminum_cans.zip",
+      "http": 200,
+      "content_length": 726061910,
+      "expected_bytes": 726061910,
+      "size_matches": true
+    },
+    {
+      "task": "collecting_childrens_toys",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/collecting_childrens_toys.zip",
+      "http": 200,
+      "content_length": 817623586,
+      "expected_bytes": 817623586,
+      "size_matches": true
+    },
+    {
+      "task": "composting_waste",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/composting_waste.zip",
+      "http": 200,
+      "content_length": 127328379,
+      "expected_bytes": 127328379,
+      "size_matches": true
+    },
+    {
+      "task": "cook_a_brisket",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cook_a_brisket.zip",
+      "http": 200,
+      "content_length": 277855383,
+      "expected_bytes": 277855383,
+      "size_matches": true
+    },
+    {
+      "task": "cook_a_frozen_pie",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cook_a_frozen_pie.zip",
+      "http": 200,
+      "content_length": 246450306,
+      "expected_bytes": 246450306,
+      "size_matches": true
+    },
+    {
+      "task": "cook_bacon",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cook_bacon.zip",
+      "http": 200,
+      "content_length": 190428244,
+      "expected_bytes": 190428244,
+      "size_matches": true
+    },
+    {
+      "task": "cook_broccolini",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cook_broccolini.zip",
+      "http": 200,
+      "content_length": 187701006,
+      "expected_bytes": 187701006,
+      "size_matches": true
+    },
+    {
+      "task": "cook_brussels_sprouts",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cook_brussels_sprouts.zip",
+      "http": 200,
+      "content_length": 653334330,
+      "expected_bytes": 653334330,
+      "size_matches": true
+    },
+    {
+      "task": "cook_cabbage",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cook_cabbage.zip",
+      "http": 200,
+      "content_length": 583268521,
+      "expected_bytes": 583268521,
+      "size_matches": true
+    },
+    {
+      "task": "cook_hot_dogs",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/cook_hot_dogs.zip",
+      "http": 200,
+      "content_length": 283158633,
+      "expected_bytes": 283158633,
+      "size_matches": true
+    },
+    {
+      "task": "dispose_of_batteries",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/dispose_of_batteries.zip",
+      "http": 200,
+      "content_length": 346438230,
+      "expected_bytes": 346438230,
+      "size_matches": true
+    },
+    {
+      "task": "dispose_of_glass",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/dispose_of_glass.zip",
+      "http": 200,
+      "content_length": 537595862,
+      "expected_bytes": 537595862,
+      "size_matches": true
+    },
+    {
+      "task": "freeze_fruit",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/freeze_fruit.zip",
+      "http": 200,
+      "content_length": 561314946,
+      "expected_bytes": 561314946,
+      "size_matches": true
+    },
+    {
+      "task": "freeze_pies",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/freeze_pies.zip",
+      "http": 200,
+      "content_length": 375491551,
+      "expected_bytes": 375491551,
+      "size_matches": true
+    },
+    {
+      "task": "getting_organized_for_work",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/getting_organized_for_work.zip",
+      "http": 200,
+      "content_length": 443670798,
+      "expected_bytes": 443670798,
+      "size_matches": true
+    },
+    {
+      "task": "halve_an_egg",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/halve_an_egg.zip",
+      "http": 200,
+      "content_length": 256591973,
+      "expected_bytes": 256591973,
+      "size_matches": true
+    },
+    {
+      "task": "hanging_pictures",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/hanging_pictures.zip",
+      "http": 200,
+      "content_length": 84758226,
+      "expected_bytes": 84758226,
+      "size_matches": true
+    },
+    {
+      "task": "hiding_Easter_eggs",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/hiding_Easter_eggs.zip",
+      "http": 200,
+      "content_length": 366417254,
+      "expected_bytes": 366417254,
+      "size_matches": true
+    },
+    {
+      "task": "installing_a_fax_machine",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/installing_a_fax_machine.zip",
+      "http": 200,
+      "content_length": 126221646,
+      "expected_bytes": 126221646,
+      "size_matches": true
+    },
+    {
+      "task": "installing_a_modem",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/installing_a_modem.zip",
+      "http": 200,
+      "content_length": 57060884,
+      "expected_bytes": 57060884,
+      "size_matches": true
+    },
+    {
+      "task": "installing_a_scanner",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/installing_a_scanner.zip",
+      "http": 200,
+      "content_length": 109348417,
+      "expected_bytes": 109348417,
+      "size_matches": true
+    },
+    {
+      "task": "installing_smoke_detectors",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/installing_smoke_detectors.zip",
+      "http": 200,
+      "content_length": 106057657,
+      "expected_bytes": 106057657,
+      "size_matches": true
+    },
+    {
+      "task": "laying_tile_floors",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/laying_tile_floors.zip",
+      "http": 200,
+      "content_length": 247039363,
+      "expected_bytes": 247039363,
+      "size_matches": true
+    },
+    {
+      "task": "loading_the_car",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/loading_the_car.zip",
+      "http": 200,
+      "content_length": 298845042,
+      "expected_bytes": 298845042,
+      "size_matches": true
+    },
+    {
+      "task": "make_cabinet_doors",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/make_cabinet_doors.zip",
+      "http": 200,
+      "content_length": 119977670,
+      "expected_bytes": 119977670,
+      "size_matches": true
+    },
+    {
+      "task": "make_gift_bags_for_baby_showers",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/make_gift_bags_for_baby_showers.zip",
+      "http": 200,
+      "content_length": 374359616,
+      "expected_bytes": 374359616,
+      "size_matches": true
+    },
+    {
+      "task": "make_microwave_popcorn",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/make_microwave_popcorn.zip",
+      "http": 200,
+      "content_length": 93738184,
+      "expected_bytes": 93738184,
+      "size_matches": true
+    },
+    {
+      "task": "make_pizza",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/make_pizza.zip",
+      "http": 200,
+      "content_length": 725188802,
+      "expected_bytes": 725188802,
+      "size_matches": true
+    },
+    {
+      "task": "make_rose_centerpieces",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/make_rose_centerpieces.zip",
+      "http": 200,
+      "content_length": 137325224,
+      "expected_bytes": 137325224,
+      "size_matches": true
+    },
+    {
+      "task": "moving_boxes_to_storage",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/moving_boxes_to_storage.zip",
+      "http": 200,
+      "content_length": 433582626,
+      "expected_bytes": 433582626,
+      "size_matches": true
+    },
+    {
+      "task": "organizing_art_supplies",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/organizing_art_supplies.zip",
+      "http": 200,
+      "content_length": 224349450,
+      "expected_bytes": 224349450,
+      "size_matches": true
+    },
+    {
+      "task": "organizing_school_stuff",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/organizing_school_stuff.zip",
+      "http": 200,
+      "content_length": 649300038,
+      "expected_bytes": 649300038,
+      "size_matches": true
+    },
+    {
+      "task": "outfit_a_basic_toolbox",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/outfit_a_basic_toolbox.zip",
+      "http": 200,
+      "content_length": 282005383,
+      "expected_bytes": 282005383,
+      "size_matches": true
+    },
+    {
+      "task": "packing_meal_for_delivery",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/packing_meal_for_delivery.zip",
+      "http": 200,
+      "content_length": 392134036,
+      "expected_bytes": 392134036,
+      "size_matches": true
+    },
+    {
+      "task": "picking_up_toys",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/picking_up_toys.zip",
+      "http": 200,
+      "content_length": 733526164,
+      "expected_bytes": 733526164,
+      "size_matches": true
+    },
+    {
+      "task": "picking_up_trash",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/picking_up_trash.zip",
+      "http": 200,
+      "content_length": 161223132,
+      "expected_bytes": 161223132,
+      "size_matches": true
+    },
+    {
+      "task": "polishing_shoes",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/polishing_shoes.zip",
+      "http": 200,
+      "content_length": 661181808,
+      "expected_bytes": 661181808,
+      "size_matches": true
+    },
+    {
+      "task": "preparing_lunch_box",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/preparing_lunch_box.zip",
+      "http": 200,
+      "content_length": 275278469,
+      "expected_bytes": 275278469,
+      "size_matches": true
+    },
+    {
+      "task": "put_together_a_basic_pruning_kit",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/put_together_a_basic_pruning_kit.zip",
+      "http": 200,
+      "content_length": 236463995,
+      "expected_bytes": 236463995,
+      "size_matches": true
+    },
+    {
+      "task": "putting_away_Halloween_decorations",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/putting_away_Halloween_decorations.zip",
+      "http": 200,
+      "content_length": 450394290,
+      "expected_bytes": 450394290,
+      "size_matches": true
+    },
+    {
+      "task": "putting_away_toys",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/putting_away_toys.zip",
+      "http": 200,
+      "content_length": 566861984,
+      "expected_bytes": 566861984,
+      "size_matches": true
+    },
+    {
+      "task": "putting_dirty_dishes_in_sink",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/putting_dirty_dishes_in_sink.zip",
+      "http": 200,
+      "content_length": 544871626,
+      "expected_bytes": 544871626,
+      "size_matches": true
+    },
+    {
+      "task": "putting_dishes_away_after_cleaning",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/putting_dishes_away_after_cleaning.zip",
+      "http": 200,
+      "content_length": 548543460,
+      "expected_bytes": 548543460,
+      "size_matches": true
+    },
+    {
+      "task": "putting_shoes_on_rack",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/putting_shoes_on_rack.zip",
+      "http": 200,
+      "content_length": 279451716,
+      "expected_bytes": 279451716,
+      "size_matches": true
+    },
+    {
+      "task": "putting_up_Christmas_decorations_inside",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/putting_up_Christmas_decorations_inside.zip",
+      "http": 200,
+      "content_length": 744167347,
+      "expected_bytes": 744167347,
+      "size_matches": true
+    },
+    {
+      "task": "re_shelving_library_books",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/re_shelving_library_books.zip",
+      "http": 200,
+      "content_length": 383350627,
+      "expected_bytes": 383350627,
+      "size_matches": true
+    },
+    {
+      "task": "rearrange_your_room",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/rearrange_your_room.zip",
+      "http": 200,
+      "content_length": 724106406,
+      "expected_bytes": 724106406,
+      "size_matches": true
+    },
+    {
+      "task": "rearranging_kitchen_furniture",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/rearranging_kitchen_furniture.zip",
+      "http": 200,
+      "content_length": 320805682,
+      "expected_bytes": 320805682,
+      "size_matches": true
+    },
+    {
+      "task": "scrubbing_bathroom_floor",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/scrubbing_bathroom_floor.zip",
+      "http": 200,
+      "content_length": 92035117,
+      "expected_bytes": 92035117,
+      "size_matches": true
+    },
+    {
+      "task": "set_up_a_coffee_station_in_your_kitchen",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/set_up_a_coffee_station_in_your_kitchen.zip",
+      "http": 200,
+      "content_length": 328723635,
+      "expected_bytes": 328723635,
+      "size_matches": true
+    },
+    {
+      "task": "setting_mousetraps",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/setting_mousetraps.zip",
+      "http": 200,
+      "content_length": 185760640,
+      "expected_bytes": 185760640,
+      "size_matches": true
+    },
+    {
+      "task": "setting_the_fire",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/setting_the_fire.zip",
+      "http": 200,
+      "content_length": 238650139,
+      "expected_bytes": 238650139,
+      "size_matches": true
+    },
+    {
+      "task": "setting_the_table",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/setting_the_table.zip",
+      "http": 200,
+      "content_length": 898624689,
+      "expected_bytes": 898624689,
+      "size_matches": true
+    },
+    {
+      "task": "setup_a_bar_for_a_cocktail_party",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/setup_a_bar_for_a_cocktail_party.zip",
+      "http": 200,
+      "content_length": 486178013,
+      "expected_bytes": 486178013,
+      "size_matches": true
+    },
+    {
+      "task": "slicing_vegetables",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/slicing_vegetables.zip",
+      "http": 200,
+      "content_length": 540821290,
+      "expected_bytes": 540821290,
+      "size_matches": true
+    },
+    {
+      "task": "sorting_books_on_shelf",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/sorting_books_on_shelf.zip",
+      "http": 200,
+      "content_length": 238629703,
+      "expected_bytes": 238629703,
+      "size_matches": true
+    },
+    {
+      "task": "sorting_bottles_cans_and_paper",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/sorting_bottles_cans_and_paper.zip",
+      "http": 200,
+      "content_length": 419255001,
+      "expected_bytes": 419255001,
+      "size_matches": true
+    },
+    {
+      "task": "sorting_household_items",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/sorting_household_items.zip",
+      "http": 200,
+      "content_length": 647316516,
+      "expected_bytes": 647316516,
+      "size_matches": true
+    },
+    {
+      "task": "sorting_vegetables",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/sorting_vegetables.zip",
+      "http": 200,
+      "content_length": 635827951,
+      "expected_bytes": 635827951,
+      "size_matches": true
+    },
+    {
+      "task": "spraying_for_bugs",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/spraying_for_bugs.zip",
+      "http": 200,
+      "content_length": 280177253,
+      "expected_bytes": 280177253,
+      "size_matches": true
+    },
+    {
+      "task": "spraying_fruit_trees",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/spraying_fruit_trees.zip",
+      "http": 200,
+      "content_length": 397423619,
+      "expected_bytes": 397423619,
+      "size_matches": true
+    },
+    {
+      "task": "stacking_wood",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/stacking_wood.zip",
+      "http": 200,
+      "content_length": 721201236,
+      "expected_bytes": 721201236,
+      "size_matches": true
+    },
+    {
+      "task": "store_batteries",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/store_batteries.zip",
+      "http": 200,
+      "content_length": 297403068,
+      "expected_bytes": 297403068,
+      "size_matches": true
+    },
+    {
+      "task": "store_honey",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/store_honey.zip",
+      "http": 200,
+      "content_length": 235037061,
+      "expected_bytes": 235037061,
+      "size_matches": true
+    },
+    {
+      "task": "store_produce",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/store_produce.zip",
+      "http": 200,
+      "content_length": 381095489,
+      "expected_bytes": 381095489,
+      "size_matches": true
+    },
+    {
+      "task": "storing_food",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/storing_food.zip",
+      "http": 200,
+      "content_length": 814846109,
+      "expected_bytes": 814846109,
+      "size_matches": true
+    },
+    {
+      "task": "sweeping_garage",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/sweeping_garage.zip",
+      "http": 200,
+      "content_length": 100647748,
+      "expected_bytes": 100647748,
+      "size_matches": true
+    },
+    {
+      "task": "thawing_frozen_food",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/thawing_frozen_food.zip",
+      "http": 200,
+      "content_length": 333131346,
+      "expected_bytes": 333131346,
+      "size_matches": true
+    },
+    {
+      "task": "tidying_bathroom",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/tidying_bathroom.zip",
+      "http": 200,
+      "content_length": 522375415,
+      "expected_bytes": 522375415,
+      "size_matches": true
+    },
+    {
+      "task": "tidying_bedroom",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/tidying_bedroom.zip",
+      "http": 200,
+      "content_length": 343148934,
+      "expected_bytes": 343148934,
+      "size_matches": true
+    },
+    {
+      "task": "tidying_living_room",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/tidying_living_room.zip",
+      "http": 200,
+      "content_length": 471571086,
+      "expected_bytes": 471571086,
+      "size_matches": true
+    },
+    {
+      "task": "turning_on_radio",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/turning_on_radio.zip",
+      "http": 200,
+      "content_length": 59309294,
+      "expected_bytes": 59309294,
+      "size_matches": true
+    },
+    {
+      "task": "turning_out_all_lights_before_sleep",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/turning_out_all_lights_before_sleep.zip",
+      "http": 200,
+      "content_length": 430455669,
+      "expected_bytes": 430455669,
+      "size_matches": true
+    },
+    {
+      "task": "unloading_the_car",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/unloading_the_car.zip",
+      "http": 200,
+      "content_length": 236069697,
+      "expected_bytes": 236069697,
+      "size_matches": true
+    },
+    {
+      "task": "vacuuming_floors",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/vacuuming_floors.zip",
+      "http": 200,
+      "content_length": 85045824,
+      "expected_bytes": 85045824,
+      "size_matches": true
+    },
+    {
+      "task": "wash_a_baseball_cap",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/wash_a_baseball_cap.zip",
+      "http": 200,
+      "content_length": 280141156,
+      "expected_bytes": 280141156,
+      "size_matches": true
+    },
+    {
+      "task": "wash_dog_toys",
+      "url": "https://github.com/nishn304/KANR-BEHAVIOR-2026/releases/download/v1-review/wash_dog_toys.zip",
+      "http": 200,
+      "content_length": 371711488,
+      "expected_bytes": 371711488,
+      "size_matches": true
+    }
+  ],
+  "all_100_videos_accessible": true,
+  "images": [
+    {
+      "digest": "sha256:e1892e6a09e90e73ea25fafe94e101c0ec792e8baebfafa0d5fb59bcc8275d43",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:a76256c005327fdf06a184365b8338e088cc9e130923401f2226c8a1e3a0b46c",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:b593eed0493db41d96935f0d903eabcb2a61f0a43f71769700837ff1441c54ff",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:f7b4fffc18acf4154fd62446a6d823763679c9766adaed81db100a5b48354a80",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:ff50f6f73dc6f99e13fe91b84dffc35feff15d17dca9c6818ca4339c4ebb673f",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:d5d27dd7ba4da7cac1abd0c6839a3491461b2f0613848401ab97916648be2d06",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:a10e85efdc8fd4a4d695c6f3d6f57043dbafac66c342ba02df297fb73c26f8c7",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:22edcf726e20a41237c3015a9b0c16a34956266db46ebdaac764acc478d51550",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:755f0af39ac55696b505802fb9b4f219e5ee711b566b8fde5e2379fdf3d0fb6f",
+      "http": 200,
+      "digest_matches": true
+    },
+    {
+      "digest": "sha256:bd711c17de64f1b4c06e3f48dc8c290b86d888c88600fd787c542c958d68be1c",
+      "http": 200,
+      "digest_matches": true
+    }
+  ],
+  "all_ten_public_manifests_verified": true
+}

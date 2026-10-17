@@ -1,6 +1,6 @@
 {
   "team": "KANR",
-  "affiliation": "Independent",
+  "affiliation": "UT/Independent",
   "members": [
     "Keshav Balakrishna",
     "Abhijay Gangarapu",
@@ -9,5 +9,6 @@
   ],
   "primary_contact": "nishanmanisd@gmail.com",
   "user_confirmed_four_members": true,
-  "surname_confirmed_by_user": "Gangarapu"
+  "surname_confirmed_by_user": "Gangarapu",
+  "affiliation_user_confirmed": true
 }
