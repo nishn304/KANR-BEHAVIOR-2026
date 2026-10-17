@@ -34,7 +34,7 @@
   "docker_temporary_publish_token": "deactivated; normal long-lived token untouched",
   "runpod_stop": "Original pod stopped. Fresh pt12 and separate Amy candidate test pods active; combined estimated $0.854/h. Stop confirmation will be requested after evidence is saved.",
   "tacc_running_jobs_interrupted": false,
-  "runpod_balance_observed_USD": 23.86,
+  "runpod_balance_observed_USD": 23.5,
   "team_members": [
     "Keshav Balakrishna",
     "Abhijay Gangerapu",
@@ -58,10 +58,12 @@
     ],
     "status": "CONFIRMED",
     "candidate_config_prepared": true,
-    "GPU_tested": false,
+    "GPU_tested": true,
     "production_changed": false,
     "measured_Q_gain": null,
-    "GPU_test_status": "Separate candidate pod zmpohbix9wk6ot downloading"
+    "GPU_test_status": "Task96 B1/B10 synthetic pass; task97 invalid shared-container attempt retained; fresh-container rerun awaiting reset confirmation",
+    "GPU_all_routed_tasks_pass": false
   },
-  "fresh_docker_launch_verified": true
+  "fresh_docker_launch_verified": true,
+  "native_git_config_credential_audit": "THREE_EXACT_FILES_PASS_NO_DETECTED_EMBEDDED_CREDENTIALS"
 }

@@ -1,0 +1,12 @@
+{
+  "pod_id": "zmpohbix9wk6ot",
+  "name": "kanr-amy-stagefix-check",
+  "gpu": "RTX A5000 24GB",
+  "ram_GB": 48,
+  "rate_USD_per_hour_estimate": 0.312,
+  "base_image": "gnishan123/b1k-submission@sha256:ff50f6f73dc6f99e13fe91b84dffc35feff15d17dca9c6818ca4339c4ebb673f",
+  "command_file": "runpod-start-command.txt",
+  "production_changed": false,
+  "stagefix_is_candidate_only": true,
+  "native_sources_and_checkpoint_unchanged": true
+}

@@ -1,0 +1,24 @@
+{
+  "status": "AUDIT_COMPLETE_EXPLICIT_WEIGHT_REDISTRIBUTION_SCOPE_STILL_UNRESOLVED",
+  "metadata": {
+    "amy-current": {
+      "revision": "7519e44670b9c589ed8fe3ce65a5a17583ae9cff",
+      "cardData": null,
+      "licence_named_files": [],
+      "evidence_sha256": "810b23620537faa37c90bb0e284830676d2a87c41fd37aa56e3b146ef5b35d6e"
+    },
+    "comet-current": {
+      "revision": "61739ffbced89dd5ba1b87c30d93d6084b79b0af",
+      "cardData": {
+        "datasets": [
+          "behavior-1k/2025-challenge-demos"
+        ]
+      },
+      "licence_named_files": [],
+      "evidence_sha256": "0601d63a5525cd4ec8acf65bb733c27e90f6d96ce051fd14b4b67fdec3886d3a"
+    }
+  },
+  "amy_eval_code": "apache-2.0 applies to eval-code repository; no statement found extending it to separately hosted selected weights",
+  "authors_contacted": false,
+  "legal_certification": false
+}

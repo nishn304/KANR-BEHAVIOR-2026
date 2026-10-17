@@ -1,0 +1,348 @@
+{
+  "_id": "6aca65bad30c2eb5d203bdc3",
+  "id": "ymetz/pi05-b1k-pt50-steps-public",
+  "private": false,
+  "pipeline_tag": "robotics",
+  "tags": [
+    "robotics",
+    "behavior-1k",
+    "openpi",
+    "pi0.5",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "ymetz/pi05-b1k-pt50-steps-public",
+  "author": "ymetz",
+  "sha": "20e80d254069f318196db7fb91865bdb647f549b",
+  "lastModified": "2026-10-10T20:53:20.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "tags": [
+      "robotics",
+      "behavior-1k",
+      "openpi",
+      "pi0.5"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "aux/step_prompts.jsonl.gz"
+    },
+    {
+      "rfilename": "aux/train_episodes_steps-12k.json"
+    },
+    {
+      "rfilename": "aux/train_episodes_steps-cont.json"
+    },
+    {
+      "rfilename": "checkpoints.json"
+    },
+    {
+      "rfilename": "steps-cont-2000/assets/behavior-1k/2025-challenge-demos/norm_stats.json"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/_METADATA"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/_sharding"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/array_metadatas/process_0"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/d/79361b580305c98ebab723f2ca6e75fd"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/1bdf469172e294756cb5df735ae1b246"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/2177ec4f250e2f579ad4b32b434b6dbb"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/23ac44c4aca2301c64ae657bd5b940ad"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/27d40a1d46925d28846fc6cfc4034210"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/47461125ba2f220dba7ef59ccdd3ed57"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/4d576ca0284275da335d0ac9c0ae7f55"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/5395d0fc6d35ffd17e3bc2b311873647"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/66d12d102f2c3325378658138823bf81"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/89407728a8b7a9bdb727aea85565eb97"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/8a95cfa113e7ac0c232b5a760e7fafa2"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/c616b1ad597c2b789c587b7d2c6e81cb"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/e935068d35400d21e93f2342975a8812"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/ee4efc2bf7edf1735d33b696129399d0"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/d/ff88418e1cd18ddf0adcfaf848005a81"
+    },
+    {
+      "rfilename": "steps-cont-2000/params/ocdbt.process_0/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-4000/assets/behavior-1k/2025-challenge-demos/norm_stats.json"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/_METADATA"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/_sharding"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/array_metadatas/process_0"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/d/0ed87c9b41da4a176478c7f73cc2be6a"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/07a5ab2245b5b2215d71a07c93f0deff"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/1d8ade31739c91b460e2a89fccc0d240"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/283a015222c34ef2c274ee14a14a882d"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/39a8c20ad2cdfd58f2fba65b5d39b146"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/3cdf462768b9691d4386fb7d9c0cdf5a"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/4ef670849e66646a0acb2cf984612892"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/4fa842d2df5898577b9fb1c04ee0314b"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/5205b64ca460f7fada443a9087b434f1"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/5daff1708fd7e9310e9ea92d2c88b968"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/6f67086fdb218673d61bb3703a80c412"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/8616a8aa096e6c9dbd2adacc4c98de9c"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/d/9b027222449329363eec91684f88d1ed"
+    },
+    {
+      "rfilename": "steps-cont-4000/params/ocdbt.process_0/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-6000/assets/behavior-1k/2025-challenge-demos/norm_stats.json"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/_METADATA"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/_sharding"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/array_metadatas/process_0"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/d/6c7a153a87e19e8c408f0c1ae77c0cd4"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/015779854c43454c861de74fdc5978a3"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/30ebf87498b87e5bae3abe477484d014"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/31b878d57e8e495f5e239692f1c7a409"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/394e0afd0ee7c82daf08db7d0be5af85"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/632fc46f8996ac3b4a1f576efee1c708"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/8cecdcc4890a5e58f2cfde1fb0364159"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/9ab5d0414db042881015b2382d4d1342"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/d9552014397bdfdc73272bf671238071"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/de55398280437fd1881705b4f364d037"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/df844bb10d3c7f827c11be8fde5509ad"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/dfb9165d6e666835801ab4373a9783f3"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/d/e9d17a13a4278d4097800a8300027d14"
+    },
+    {
+      "rfilename": "steps-cont-6000/params/ocdbt.process_0/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-8000/assets/behavior-1k/2025-challenge-demos/norm_stats.json"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/_METADATA"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/_sharding"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/array_metadatas/process_0"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/d/335fcab8438241552ba398a83b0855ed"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/05cd50f731d9fe471ea6bab89e1fcb2a"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/08564c049491176d35ff28ef8bf65cac"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/172e79bf154946a212c9ab1b4e81e203"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/1cbc851b34f294b7e2fb4ca1ae421373"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/246ec371ed8ca4bb22da4dc359368cb9"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/2f26a46af2479aa6f096404e69d31bb8"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/66b107c5ee5a9f843354a1d6fce05bf2"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/6ddc8c93e722fe15c75031cef8081ca9"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/a3391a74bf5a2572ce8fcb9bd9174e82"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/bb5b31ca002b4fa6ced6550920426032"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/e8cfac637b11f70c2d2c5f8ba62d6632"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/edab12e2a20ebedb01f44b9d1fcd75f8"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/d/f88db928d78a914a8c56db94cdaa9808"
+    },
+    {
+      "rfilename": "steps-cont-8000/params/ocdbt.process_0/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-9999/assets/behavior-1k/2025-challenge-demos/norm_stats.json"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/_METADATA"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/_sharding"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/array_metadatas/process_0"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/d/b7eaf3856c4f2b3f3faa7eb8676f47cb"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/manifest.ocdbt"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/115fccebe80d944eec82bec5e813c5f4"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/2f3b2bc88e9eb8dc85173fe20dfe6344"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/4761e06603e22ef89b9ec06325c979c6"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/8ea21e2f688f8472a902a988f2a7dead"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/a08f9e7aed0123c9bf6da56513f60e40"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/b4a1b85ce58ac7f645aa6227623218ee"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/b7f2716681203a650d080c1bace31802"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/bc7773b71d1d68b72d26184bfa891a8b"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/c1ba8c144f275f2dc27ab15fe61035a1"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/f3c2ad6a3402822974123595c9da58bb"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/f72cea7b46d4e846f77a7c702f3a59e3"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/d/fb55609bea1d262cc5960f507ec80aa0"
+    },
+    {
+      "rfilename": "steps-cont-9999/params/ocdbt.process_0/manifest.ocdbt"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-10-10T16:20:10.000Z",
+  "usedStorage": 62206392225
+}

@@ -1,0 +1,3 @@
+{"batch": 1, "actions": 64, "max_roundtrip_s": 0.6871322919614613, "total_act_s": 7.647443749476224, "synthetic_input": true, "includes_Mac_to_cloud_WAN": true}
+{"batch": 10, "actions": 64, "max_roundtrip_s": 28.553826582967304, "total_act_s": 103.08442583156284, "synthetic_input": true, "includes_Mac_to_cloud_WAN": true}
+FRESH_PUBLISHED_CONTAINER_REFERENCE_CLIENT_SYNTHETIC_PROTOCOL_PASS

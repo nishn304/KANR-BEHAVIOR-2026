@@ -1,0 +1,103 @@
+2026-10-17T09:52:37.262987374Z [WARN  tini (52)] Tini is not running as PID 1 and isn't registered as a child subreaper.
+2026-10-17T09:52:37.263060943Z Zombie processes will not be re-parented to Tini, so zombie reaping won't work.
+2026-10-17T09:52:37.263066622Z To fix the problem, use the -s option or set the environment variable TINI_SUBREAPER to register Tini as a child subreaper, or run Tini as PID 1.
+2026-10-17T09:52:37.304254101Z AMY_STAGEFIX_CANDIDATE_ONLY
+2026-10-17T09:52:37.495868616Z {
+2026-10-17T09:52:37.495897274Z   "status": "inventory_passed_native_model_startup_pending",
+2026-10-17T09:52:37.495899934Z   "release_qualification": "not_established_by_startup",
+2026-10-17T09:52:37.495902341Z   "precision_policy": "preserve_native_no_cast",
+2026-10-17T09:52:37.495904904Z   "actual_model_loaded_by_this_check": false,
+2026-10-17T09:52:37.495907186Z   "simulator_or_batch10_validated_by_this_check": false,
+2026-10-17T09:52:37.495909633Z   "runtime": {
+2026-10-17T09:52:37.495912086Z     "gpu_name": "NVIDIA RTX A5000",
+2026-10-17T09:52:37.495914478Z     "compute_capability": "8.6",
+2026-10-17T09:52:37.495916991Z     "driver": "580.159.04",
+2026-10-17T09:52:37.495919827Z     "memory_mib": 24564.0,
+2026-10-17T09:52:37.495922262Z     "packages": {
+2026-10-17T09:52:37.495924829Z       "jax": "0.5.3",
+2026-10-17T09:52:37.495927346Z       "jaxlib": "0.5.3",
+2026-10-17T09:52:37.495929735Z       "jax-cuda12-plugin": "0.5.3",
+2026-10-17T09:52:37.495932260Z       "numpy": "1.26.4",
+2026-10-17T09:52:37.495934887Z       "torch": "2.7.1",
+2026-10-17T09:52:37.495937574Z       "websockets": "15.0.1",
+2026-10-17T09:52:37.495939801Z       "msgpack": "1.1.0"
+2026-10-17T09:52:37.495942272Z     }
+2026-10-17T09:52:37.495944935Z   }
+2026-10-17T09:52:37.495947205Z }
+2026-10-17T09:52:38.418936556Z 2026-10-17 09:52:38,418 INFO worker[w100:b_amy_t90]: Installed OmniGibson stub: omnigibson.learning.utils.eval_utils.PROPRIOCEPTION_INDICES['R1Pro'] = 2026 61-dim layout
+2026-10-17T09:52:39.189454546Z INFO:2026-10-17 09:52:39,189:jax._src.xla_bridge:925: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2026-10-17T09:52:39.189479353Z 2026-10-17 09:52:39,189 INFO worker[w100:b_amy_t90]: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2026-10-17T09:52:39.190311870Z INFO:2026-10-17 09:52:39,190:jax._src.xla_bridge:925: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2026-10-17T09:52:39.190335266Z 2026-10-17 09:52:39,190 INFO worker[w100:b_amy_t90]: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2026-10-17T09:52:44.399744500Z 2026-10-17 09:52:44,399 INFO worker[w100:b_amy_t90]: PyTorch version 2.7.1 available.
+2026-10-17T09:52:44.400306463Z 2026-10-17 09:52:44,400 INFO worker[w100:b_amy_t90]: Polars version 1.30.0 available.
+2026-10-17T09:52:44.401135047Z 2026-10-17 09:52:44,401 INFO worker[w100:b_amy_t90]: JAX version 0.5.3 available.
+2026-10-17T09:52:44.828719805Z 2026-10-17 09:52:44,828 INFO worker[w100:b_amy_t90]: orbax-checkpoint version: 0.11.13
+2026-10-17T09:52:44.828785135Z 2026-10-17 09:52:44,828 INFO worker[w100:b_amy_t90]: Created BasePyTreeCheckpointHandler: use_ocdbt=True, use_zarr3=False, pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=<orbax.checkpoint._src.metadata.array_metadata_store.Store object at 0x709d4b981590>
+2026-10-17T09:52:44.861144443Z 2026-10-17 09:52:44,860 INFO worker[w100:b_amy_t90]: Restoring checkpoint from /scratch/11940/balak35/b1k/public_specialists/amyjia_t90-91-93-96-97/step_099999/params.
+2026-10-17T09:52:44.887845987Z 2026-10-17 09:52:44,887 INFO worker[w100:b_amy_t90]: [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID.
+2026-10-17T09:52:52.890783371Z 2026-10-17 09:52:52,890 INFO worker[w100:b_amy_t90]: [process=0] /jax/checkpoint/read/bytes_per_sec: 809.2 MiB/s (total bytes: 6.3 GiB) (time elapsed: 8 seconds) (per-host)
+2026-10-17T09:52:52.891073835Z 2026-10-17 09:52:52,890 INFO worker[w100:b_amy_t90]: Finished restoring checkpoint in 8.03 seconds from /scratch/11940/balak35/b1k/public_specialists/amyjia_t90-91-93-96-97/step_099999/params.
+2026-10-17T09:52:53.825915506Z 2026-10-17 09:52:53,825 INFO worker[w100:b_amy_t90]: FAST auxiliary enabled, vocab_size=1024
+2026-10-17T09:52:53.842283170Z 2026-10-17 09:52:53,841 INFO worker[w100:b_amy_t90]: Norm stats not found in /scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/outputs/assets/pi_behavior_b1k_fast/IliaLarchenko/behavior_224_rgb, skipping.
+2026-10-17T09:52:53.842322302Z 2026-10-17 09:52:53,842 WARNING worker[w100:b_amy_t90]: FAST tokenizer not found at /scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/outputs/assets/pi_behavior_b1k_fast/IliaLarchenko/behavior_224_rgb/fast_tokenizer. FAST auxiliary training will be disabled (inference mode).
+2026-10-17T09:52:53.842328908Z 2026-10-17 09:52:53,842 INFO worker[w100:b_amy_t90]: Norm stats not found in /scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/outputs/assets/pi_behavior_b1k_fast/IliaLarchenko/behavior_224_rgb, skipping.
+2026-10-17T09:52:53.842334052Z 2026-10-17 09:52:53,842 INFO worker[w100:b_amy_t90]: Successfully accessed correlation matrix via attribute access
+2026-10-17T09:52:56.853137998Z 2026-10-17 09:52:56,852 INFO worker[w100:b_amy_t90]: Applying shrinkage regularization with beta=0.50
+2026-10-17T09:52:57.262031869Z 2026-10-17 09:52:57,261 INFO worker[w100:b_amy_t90]: ✓ Loaded correlation matrix with shape (960, 960) (beta=0.50 shrinkage applied)
+2026-10-17T09:52:57.262058537Z 2026-10-17 09:52:57,261 INFO worker[w100:b_amy_t90]:   Memory usage: 3.52 MB
+2026-10-17T09:52:57.262062654Z 2026-10-17 09:52:57,261 INFO worker[w100:b_amy_t90]: Loaded correlation matrix for inference
+2026-10-17T09:52:57.267172797Z 2026-10-17 09:52:57,266 INFO worker[w100:b_amy_t90]: WINNER_RUNTIME {"action_horizon": 30, "checkpoint_dir": "/scratch/11940/balak35/b1k/public_specialists/amyjia_t90-91-93-96-97/step_099999", "config": "pi_behavior_b1k_fast", "devices": ["cuda:0"], "family": "B", "inference_stack": "native_winner_wrapper_100slot_patch", "input_image_shapes": {"base_0_rgb": [1, 280, 280, 3], "left_wrist_0_rgb": [1, 280, 280, 3], "right_wrist_0_rgb": [1, 280, 280, 3]}, "jax": "0.5.3", "load_seconds": 12.44, "loaded_shapes": {"PaliGemma.img.pos_embedding": [1, 400, 1152], "stage_pred_from_vlm.kernel": [2048, 15], "task_embeddings.embedding": [100, 2048], "task_stage_embeddings.embedding": [1087, 1024]}, "native_policy_path": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/src/b1k/policies/pi_behavior_policy.py", "norm_stats": "/scratch/11940/balak35/b1k/public_specialists/amyjia_t90-91-93-96-97/step_099999/assets/behavior-1k/2026-challenge-demos/norm_stats.json", "num_steps": 20, "num_tasks": 100, "openpi_model_path": "/scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/openpi/src/openpi/models/model.py", "params_restore": "default", "patches": {"eval_tricks_off_tasks": [], "image": {"patched": ["openpi.models.model.IMAGE_RESOLUTION", "b1k.models.observation.IMAGE_RESOLUTION", "b1k.models.observation.preprocess_observation(image_resolution)", "b1k.shared.eval_b1k_wrapper.RESIZE_SIZE", "openpi.models.model.preprocess_observation(image_resolution) [defensive]"], "size": 280}, "rules_off_slots": [], "stage_constants": {"b1k.transforms": ["TASK_NUM_STAGES"], "eval_b1k_wrapper": ["TASK_NUM_STAGES"], "pi_behavior": ["TASK_NUM_STAGES", "TASK_STAGE_OFFSETS", "TOTAL_TASK_STAGE_EMBEDDINGS"], "pi_behavior_config": ["TASK_NUM_STAGES", "TASK_STAGE_OFFSETS", "TOTAL_TASK_STAGE_EMBEDDINGS"]}, "table": "AMY1087_alt9697_uniform10", "table_total": 1087}, "pos_embedding_patches": 400, "python": "3.11.17 (main, Oct  3 2026, 01:05:36) [Clang 22.1.3 ]", "resize_images": {"index": 4, "size": [280, 280]}, "route_spec": "b_amy_t90_g3alt", "trained_parameter_updates": false}
+2026-10-17T09:54:01.488223477Z 2026-10-17 09:54:01,487 INFO worker[w100:b_amy_t90]: Computing correction matrix for 4 steps, 32 dims...
+2026-10-17T09:54:22.137248472Z 2026-10-17 09:54:22,136 INFO worker[w100:b_amy_t90]: [w100:b_amy_t90] WORKER_READY {"family": "winner100", "route_spec": "b_amy_t90_g3alt", "supported_tasks": [96, 97], "pos_embedding_patches": 400, "image_size": 280, "table": "AMY1087_alt9697_uniform10", "route_spec_sha256": "9d72cc6de8da05c647d0cdb2cae6f934fe725b9b675f3dadf77545bdf6dc34c4", "load_seconds": 12.44, "source_verify": "files", "load_s": 19.15, "warmup": [{"task_id": 96, "plan": 0, "seconds": 64.15541976504028, "chunk": [1, 20, 23]}, {"task_id": 96, "plan": 1, "seconds": 20.456035463139415, "chunk": [1, 20, 23]}, {"task_id": 97, "plan": 0, "seconds": 0.2452070750296116, "chunk": [1, 20, 23]}], "warmup_s": 84.87}
+2026-10-17T09:54:22.139763222Z INFO:websockets.server:server listening on 0.0.0.0:8000
+2026-10-17T09:54:22.139934972Z INFO:b1k.strict:SERVER_READY model=w100@b_amy_t90-stagefix-candidate task=None batch<=10 chunk=4
+2026-10-17T09:54:24.405905659Z INFO:websockets.server:connection rejected (200 OK)
+2026-10-17T09:54:25.705112824Z INFO:websockets.server:connection rejected (200 OK)
+2026-10-17T09:54:25.815243799Z INFO:websockets.server:connection open
+2026-10-17T09:54:35.370164411Z INFO:websockets.server:connection rejected (200 OK)
+2026-10-17T09:54:35.481635851Z INFO:websockets.server:connection open
+2026-10-17T09:55:49.293569760Z INFO:websockets.server:connection rejected (200 OK)
+2026-10-17T09:55:49.404379663Z INFO:websockets.server:connection open
+2026-10-17T09:55:50.220819193Z ERROR:b1k.strict:terminal policy failure
+2026-10-17T09:55:50.220851037Z Traceback (most recent call last):
+2026-10-17T09:55:50.220852665Z   File "/tmp/amy-stagefix/server.py", line 179, in handler
+2026-10-17T09:55:50.220854542Z     await asyncio.wait_for(query(), self.config['query_s'])
+2026-10-17T09:55:50.220856188Z   File "/scratch/11940/balak35/b1k/uv-python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+2026-10-17T09:55:50.220858442Z     return fut.result()
+2026-10-17T09:55:50.220860254Z            ^^^^^^^^^^^^
+2026-10-17T09:55:50.220861912Z   File "/tmp/amy-stagefix/server.py", line 154, in query
+2026-10-17T09:55:50.220863724Z     parsed = await asyncio.to_thread(c.request, payload)
+2026-10-17T09:55:50.220865398Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-17T09:55:50.220866905Z   File "/scratch/11940/balak35/b1k/uv-python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+2026-10-17T09:55:50.220868700Z     return await loop.run_in_executor(None, func_call)
+2026-10-17T09:55:50.220870167Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-17T09:55:50.220871525Z   File "/scratch/11940/balak35/b1k/uv-python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+2026-10-17T09:55:50.220872945Z     result = self.fn(*self.args, **self.kwargs)
+2026-10-17T09:55:50.220874293Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-17T09:55:50.220875596Z   File "/tmp/amy-stagefix/server.py", line 78, in request
+2026-10-17T09:55:50.220877047Z     raise ContractError('one task per container; task change requires a new container')
+2026-10-17T09:55:50.220878874Z ContractError: one task per container; task change requires a new container
+2026-10-17T09:55:50.221129681Z INFO:websockets.server:server closing
+2026-10-17T09:55:50.394244100Z INFO:websockets.server:server closed
+2026-10-17T09:55:55.576350479Z [WARN  tini (49)] Tini is not running as PID 1 and isn't registered as a child subreaper.
+2026-10-17T09:55:55.576368975Z Zombie processes will not be re-parented to Tini, so zombie reaping won't work.
+2026-10-17T09:55:55.576371551Z To fix the problem, use the -s option or set the environment variable TINI_SUBREAPER to register Tini as a child subreaper, or run Tini as PID 1.
+2026-10-17T09:55:55.616997180Z Traceback (most recent call last):
+2026-10-17T09:55:55.617038080Z   File "<string>", line 1, in <module>
+2026-10-17T09:55:55.617043394Z   File "<string>", line 1, in <module>
+2026-10-17T09:55:55.617048440Z AssertionError
+2026-10-17T09:56:11.484513549Z [WARN  tini (51)] Tini is not running as PID 1 and isn't registered as a child subreaper.
+2026-10-17T09:56:11.484529230Z Zombie processes will not be re-parented to Tini, so zombie reaping won't work.
+2026-10-17T09:56:11.484536626Z To fix the problem, use the -s option or set the environment variable TINI_SUBREAPER to register Tini as a child subreaper, or run Tini as PID 1.
+2026-10-17T09:56:11.525996503Z Traceback (most recent call last):
+2026-10-17T09:56:11.526025889Z   File "<string>", line 1, in <module>
+2026-10-17T09:56:11.526030225Z   File "<string>", line 1, in <module>
+2026-10-17T09:56:11.526032353Z AssertionError
+2026-10-17T09:56:27.373564881Z [WARN  tini (51)] Tini is not running as PID 1 and isn't registered as a child subreaper.
+2026-10-17T09:56:27.373611108Z Zombie processes will not be re-parented to Tini, so zombie reaping won't work.
+2026-10-17T09:56:27.373616548Z To fix the problem, use the -s option or set the environment variable TINI_SUBREAPER to register Tini as a child subreaper, or run Tini as PID 1.
+2026-10-17T09:56:27.416175769Z Traceback (most recent call last):
+2026-10-17T09:56:27.416193039Z   File "<string>", line 1, in <module>
+2026-10-17T09:56:27.416194698Z   File "<string>", line 1, in <module>
+2026-10-17T09:56:27.416196367Z AssertionError

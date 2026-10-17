@@ -1,0 +1,21 @@
+{
+  "candidate_only": true,
+  "path": "/Users/nishanmani/Documents/Codex/2026-10-04/https-docs-google-com-document-d/outputs/submission-finish-20261016/release-ready/standard.public.KANR.Independent.20261016.zip",
+  "filename": "standard.public.KANR.Independent.20261016.zip",
+  "bytes": 519780,
+  "sha256": "3b1c9c939839e99dba15cfdd0a32a4ebdc5b0dcb03677a535443ec946219ffd6",
+  "review5_bytes_identical": true,
+  "root_matches_archive_name": true,
+  "members": [
+    "Keshav Balakrishna",
+    "Abhijay Gangerapu",
+    "Nishan Mani",
+    "Rithik Satarla"
+  ],
+  "official_results_unchanged": true,
+  "published": false,
+  "submitted": false,
+  "private_draft_staged": true,
+  "private_asset_id": 650101871,
+  "remote_digest_matches": true
+}

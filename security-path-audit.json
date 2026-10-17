@@ -1,0 +1,43 @@
+{
+  "scope": "Filename/path inventory and OCI environment variable names only; not a full content secret scan",
+  "native_inventory_sha256": "19842153ce28fed67da1b4d1fc1682c8d050db396fdd4b5c55420cea00c663af",
+  "native_files": 106423,
+  "credential_named_paths": 0,
+  "git_metadata_paths": 91,
+  "auth_config_directory_paths": 0,
+  "sensitive_OCI_env_names": [],
+  "exact_git_config_audit": {
+    "scope": "Bounded layer-prefix extraction, exact file SHA checked against full native inventory; credential values never printed or saved",
+    "targets": 3,
+    "found": [
+      {
+        "path": "scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/.git/config",
+        "sha256": "455fda10d2184ff25a9c6828cabc7064246e46510fd8f4cdb33a421d856fa9f0",
+        "credential_flags": [],
+        "public_remote_urls": [
+          "https://github.com/IliaLarchenko/behavior-1k-solution.git",
+          "https://github.com/wensi-ai/openpi.git"
+        ]
+      },
+      {
+        "path": "scratch/11940/balak35/b1k/experiments/winner2026-policy-20261008/winner-src/.git/modules/openpi/config",
+        "sha256": "cda7fbf64ef5da2f9eee30795d659a689a3037c0a888f2bff7e8f8c3923dffc4",
+        "credential_flags": [],
+        "public_remote_urls": [
+          "https://github.com/wensi-ai/openpi.git"
+        ]
+      },
+      {
+        "path": "scratch/11940/balak35/b1k/comet/openpi-comet/.git/config",
+        "sha256": "2dfd560eea34f2f8a5d8c55a6bd7c7bb4756910d00df66fd985c9c6c6da89329",
+        "credential_flags": [],
+        "public_remote_urls": [
+          "https://github.com/mli0603/openpi-comet.git"
+        ]
+      }
+    ],
+    "missing": [],
+    "errors": [],
+    "status": "PASS_ALL_THREE_GIT_CONFIGS_HAVE_NO_DETECTED_EMBEDDED_CREDENTIALS"
+  }
+}

@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/Users/nishanmani/Documents/Codex/2026-10-04/https-docs-google-com-document-d/outputs/submission-finish-20261016/fatal-audit/tacc-gpu/actual-evaluator/utils/network_utils.py", line 133, in act
+    response = self._ws.recv()
+               ^^^^^^^^^^^^^^^
+  File "/Users/nishanmani/Documents/Codex/2026-10-04/https-docs-google-com-document-d/outputs/submission-finish-20261016/fresh-launch-review5/client-env/lib/python3.12/site-packages/websockets/sync/connection.py", line 336, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: received 1011 (internal error) terminal policy failure; then sent 1011 (internal error) terminal policy failure
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nishanmani/Documents/Codex/2026-10-04/https-docs-google-com-document-d/outputs/submission-finish-20261016/fresh-launch-review5/remote_client.py", line 17, in <module>
+    for _ in range(3):bounded(lambda:c.act(obs))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishanmani/Documents/Codex/2026-10-04/https-docs-google-com-document-d/outputs/submission-finish-20261016/fatal-audit/tacc-gpu/client_smoke.py", line 52, in bounded
+    return call()
+           ^^^^^^
+  File "/Users/nishanmani/Documents/Codex/2026-10-04/https-docs-google-com-document-d/outputs/submission-finish-20261016/fresh-launch-review5/remote_client.py", line 17, in <lambda>
+    for _ in range(3):bounded(lambda:c.act(obs))
+                                     ^^^^^^^^^^
+  File "/Users/nishanmani/Documents/Codex/2026-10-04/https-docs-google-com-document-d/outputs/submission-finish-20261016/fatal-audit/tacc-gpu/actual-evaluator/utils/network_utils.py", line 170, in act
+    raise RuntimeError(f"Websocket connection error: {e}")
+RuntimeError: Websocket connection error: received 1011 (internal error) terminal policy failure; then sent 1011 (internal error) terminal policy failure

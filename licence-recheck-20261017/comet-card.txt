@@ -1,0 +1,10 @@
+---
+datasets:
+- behavior-1k/2025-challenge-demos
+---
+
+This is the latest model weights of Team Comet for the [BEHAVIOR-1K dataset](https://behavior.stanford.edu/index.html).
+
+Please refer to [this repository](https://github.com/mli0603/openpi-comet) for detailed usage. It provides a unified framework for pre-training, post-training, data generation and evaluation of π0.5 (Pi05) models on BEHAVIOR-1K.
+
+The [tech report](https://arxiv.org/abs/2512.10071) is available now. The PyTorch version could be found [here](https://huggingface.co/sunshk/openpi_comet_pytorch).

@@ -1,0 +1,24 @@
+{
+  "candidate_only": true,
+  "production_routing_changed": false,
+  "published": false,
+  "checkpoint_unchanged": true,
+  "native_sources_unchanged": true,
+  "candidate_config_sha256": "485e0eca0ab1b5973aee033248f72d4c5def54185d62a59492de6ed8ed370c1e",
+  "table_matches_all_publisher_documented_counts": true,
+  "tasks": {
+    "96": {
+      "count": 10,
+      "offset": 1047
+    },
+    "97": {
+      "count": 10,
+      "offset": 1057
+    }
+  },
+  "GPU_tested": true,
+  "dev_instances_tested": false,
+  "measured_Q_gain": null,
+  "GPU_test_scope": "Task96 synthetic batch1/10,64 actions each. Task97 awaiting valid fresh-container test; no full-stage or dev qualification.",
+  "GPU_all_routed_tasks_pass": false
+}

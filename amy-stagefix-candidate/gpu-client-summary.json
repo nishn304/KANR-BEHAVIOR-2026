@@ -1,0 +1,22 @@
+{
+  "status": "PARTIAL_TASK96_PASS_TASK97_REQUIRES_FRESH_CONTAINER",
+  "task96": {
+    "synthetic_batch_sizes": [
+      1,
+      10
+    ],
+    "actions_each": 64,
+    "max_WAN_call_s": 6.452136625070125,
+    "pass": true
+  },
+  "task97": {
+    "valid_inference_tested": false,
+    "first_attempt_rejected_by_one_task_per_container_guard": true
+  },
+  "test_bootstrap_restart_issue": "Non-idempotent test-only config copy asserted on provider auto-restart; v2 repair prepared, awaiting reset confirmation",
+  "native_model_fault_demonstrated": false,
+  "dev_instances_tested": false,
+  "measured_Q_gain": null,
+  "production_changed": false,
+  "failure_evidence_retained": true
+}

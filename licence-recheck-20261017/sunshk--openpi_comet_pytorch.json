@@ -1,0 +1,55 @@
+{
+  "_id": "6971db33eec3604b215f8fcf",
+  "id": "sunshk/openpi_comet_pytorch",
+  "private": false,
+  "tags": [
+    "safetensors",
+    "dataset:behavior-1k/2025-challenge-demos",
+    "arxiv:2512.10071",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 1,
+  "modelId": "sunshk/openpi_comet_pytorch",
+  "author": "sunshk",
+  "sha": "5a489fe50fdc8e256533c8c611dfd60c247520cf",
+  "lastModified": "2026-02-02T12:02:25.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "datasets": [
+      "behavior-1k/2025-challenge-demos"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "pi05-b1kpt12-cs32/assets/behavior-1k/2025-challenge-demos/norm_stats.json"
+    },
+    {
+      "rfilename": "pi05-b1kpt12-cs32/config.json"
+    },
+    {
+      "rfilename": "pi05-b1kpt12-cs32/model.safetensors"
+    },
+    {
+      "rfilename": "pi05-b1kpt50-cs32/assets/behavior-1k/2025-challenge-demos/norm_stats.json"
+    },
+    {
+      "rfilename": "pi05-b1kpt50-cs32/config.json"
+    },
+    {
+      "rfilename": "pi05-b1kpt50-cs32/model.safetensors"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-01-22T08:09:23.000Z",
+  "usedStorage": 14467300816
+}

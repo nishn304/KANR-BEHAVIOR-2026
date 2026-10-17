@@ -1,0 +1,33 @@
+{
+  "challenge_form": {
+    "team": "KANR",
+    "affiliation": "Independent",
+    "members": [
+      "Keshav Balakrishna",
+      "Abhijay Gangerapu",
+      "Nishan Mani",
+      "Rithik Satarla"
+    ],
+    "submitted": false,
+    "artifact_fields_pending_access_review": true
+  },
+  "participant_survey": {
+    "team_count_changed": {
+      "from": 3,
+      "to": 4
+    },
+    "contact": "nishanmanisd@gmail.com",
+    "submitted": false,
+    "restored_location_and_roles_require_joint_review": true
+  },
+  "inference_speed_form": {
+    "notes_updated_with_measured_tests": true,
+    "four_members_in_notes": true,
+    "representative_average_not_invented": true,
+    "upper_bound_left_blank": true,
+    "submitted": false
+  },
+  "paper": null,
+  "website": null,
+  "user_joint_review_required": true
+}

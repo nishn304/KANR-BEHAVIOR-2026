@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "only_changes": [
+    "policy label",
+    "route_spec selection",
+    "matching slot.code entry",
+    "restrict routes_tasks to 96/97"
+  ],
+  "weights_unchanged": true,
+  "runtime_sources_unchanged": true,
+  "GPU_tested": false,
+  "dev_tested": false,
+  "production_changed": false
+}

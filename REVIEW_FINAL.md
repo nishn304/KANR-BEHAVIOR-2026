@@ -17,3 +17,7 @@ Additional finding: the Amy publisher's October14 stage table specifies 10 stage
 The original RunPod pod is stopped. A separate approximately$0.54/hour RTX3090 pod passed the fresh published pt12 launch and official-client synthetic batch1/batch10 check. A separate approximately$0.31/hour A5000 pod is still preparing the Amy stage-table candidate check. Its status and evidence will be recorded in fresh-launch-review5/. TACC jobs remain untouched; current TACC authentication is expired, so no fresh job-state claim is made.
 
 Paper, website and collaborator code links are still awaiting the user's final URLs. They have not been invented or submitted.
+
+The standards-named submission archive candidate is standard.public.KANR.Independent.20261016.zip, SHA256 3b1c9c939839e99dba15cfdd0a32a4ebdc5b0dcb03677a535443ec946219ffd6. It is byte-identical to REVIEW5 and its internal root matches the filename. It is privately staged, not publicly released or submitted.
+
+Amy candidate status: native GPU/reference-client task96 passed batch1/batch10 (64 actions each). The first task97 attempt incorrectly reused that container and was rejected by the documented lifetime task binding. Its failure and the candidate-only restart bootstrap assertion are preserved. A restart-safe test command is prepared; RunPod requires confirmation before its temporary disk can be reset for the valid task97 test. No candidate adoption or Q gain is claimed. The published submission bootstrap does not contain this candidate-only copy/patch command.

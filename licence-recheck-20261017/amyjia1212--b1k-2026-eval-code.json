@@ -1,0 +1,52 @@
+{
+  "_id": "6ad013a4961c8c0cf5a71928",
+  "id": "amyjia1212/b1k-2026-eval-code",
+  "private": false,
+  "pipeline_tag": "robotics",
+  "tags": [
+    "behavior-1k",
+    "robotics",
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "amyjia1212/b1k-2026-eval-code",
+  "author": "amyjia1212",
+  "sha": "b9c8bf8588d9471cbee72d9953de4952860f43c9",
+  "lastModified": "2026-10-14T23:45:11.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "apache-2.0",
+    "tags": [
+      "behavior-1k",
+      "robotics"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "b1k-eval-code-20261014.tar.gz"
+    },
+    {
+      "rfilename": "b1k_eval-harness.tar.gz"
+    },
+    {
+      "rfilename": "behavior-1k-solution.diff"
+    },
+    {
+      "rfilename": "openpi.diff"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-10-14T23:43:32.000Z",
+  "usedStorage": 658793
+}
